@@ -1,0 +1,50 @@
+[
+ {
+  "language": "zh-TW",
+  "key": "phone",
+  "name": "iOS 設定捷徑",
+  "file": "shortcuts/zh-TW/iOS 設定捷徑.shortcut",
+  "asset": "iOS-Settings-Launcher-zh-TW.shortcut",
+  "entries": 1758
+ },
+ {
+  "language": "zh-TW",
+  "key": "phone_all",
+  "name": "iOS 設定捷徑 完整版",
+  "file": "shortcuts/zh-TW/iOS 設定捷徑 完整版.shortcut",
+  "asset": "iOS-Settings-Launcher-Full-zh-TW.shortcut",
+  "entries": 1878
+ },
+ {
+  "language": "zh-TW",
+  "key": "watch",
+  "name": "Apple Watch 設定捷徑",
+  "file": "shortcuts/zh-TW/Apple Watch 設定捷徑.shortcut",
+  "asset": "Apple-Watch-Settings-Launcher-zh-TW.shortcut",
+  "entries": 711
+ },
+ {
+  "language": "en",
+  "key": "phone",
+  "name": "iOS Settings Launcher",
+  "file": "shortcuts/en/iOS Settings Launcher.shortcut",
+  "asset": "iOS-Settings-Launcher.shortcut",
+  "entries": 1758
+ },
+ {
+  "language": "en",
+  "key": "phone_all",
+  "name": "iOS Settings Launcher (Full)",
+  "file": "shortcuts/en/iOS Settings Launcher (Full).shortcut",
+  "asset": "iOS-Settings-Launcher-Full.shortcut",
+  "entries": 1878
+ },
+ {
+  "language": "en",
+  "key": "watch",
+  "name": "Apple Watch Settings Launcher",
+  "file": "shortcuts/en/Apple Watch Settings Launcher.shortcut",
+  "asset": "Apple-Watch-Settings-Launcher.shortcut",
+  "entries": 711
+ }
+]

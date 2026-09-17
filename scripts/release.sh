@@ -4,8 +4,9 @@
 # Usage: scripts/release.sh v1.0.0 [--draft]
 #
 # The script checks everything first, then tags, then uploads.
-# GitHub turns a space in an asset name into a period, so single files get
-# hyphens instead of spaces. Each ZIP keeps the original file names.
+# GitHub deletes every non ASCII character from an asset name, and turns a
+# space into a period. So each single file uses the plain name from
+# shortcuts/manifest.json. Each ZIP keeps the real file names.
 set -eu
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
@@ -27,13 +28,12 @@ fail() {
 echo "==> Checking the repository"
 
 command -v gh >/dev/null || fail "the gh command is not installed"
+command -v zip >/dev/null || fail "the zip command is not installed"
 gh auth status >/dev/null 2>&1 || fail "gh is not logged in"
 
 branch="$(git rev-parse --abbrev-ref HEAD)"
 [ "$branch" = "main" ] || fail "you are on branch $branch, not main"
 
-git diff --quiet || fail "the working tree has changes"
-git diff --cached --quiet || fail "the index has changes"
 [ -z "$(git status --porcelain)" ] || fail "the working tree is not clean"
 
 if git rev-parse -q --verify "refs/tags/$version" >/dev/null; then
@@ -43,6 +43,8 @@ fi
 git fetch --quiet origin "$branch"
 [ "$(git rev-parse HEAD)" = "$(git rev-parse "origin/$branch")" ] ||
   fail "HEAD and origin/$branch differ. Push first."
+
+[ -f shortcuts/manifest.json ] || fail "shortcuts/manifest.json is missing. Run make shortcuts."
 
 echo "==> Checking that every shortcut is signed and current"
 
@@ -67,14 +69,19 @@ trap 'rm -rf "$stage"' EXIT
 
 assets=()
 
+# One line per build: signed file, then the plain asset name.
+while IFS=$'\t' read -r file asset; do
+  [ -f "$file" ] || fail "$file is in the manifest but not on disk"
+  cp "$file" "$stage/$asset"
+  assets+=("$stage/$asset")
+done < <(python3 -c '
+import json
+for row in json.load(open("shortcuts/manifest.json", encoding="utf-8")):
+    print(row["file"], row["asset"], sep="\t")
+')
+
 for language_dir in shortcuts/*/; do
   language="$(basename "$language_dir")"
-  for signed in "$language_dir"*.shortcut; do
-    [ -f "$signed" ] || continue
-    flat="$(basename "$signed" | tr ' ' '-')"
-    cp "$signed" "$stage/$flat"
-    assets+=("$stage/$flat")
-  done
   bundle="$stage/shortcuts-$language-$version.zip"
   # -j drops the folder path, so the ZIP holds the files with their real names.
   (cd "$language_dir" && zip -q -j "$bundle" ./*.shortcut)
@@ -90,14 +97,12 @@ echo "==> Writing the release notes"
 notes="$stage/notes.md"
 python3 - "$notes" "$version" <<'PYTHON'
 import json
-import os
 import sys
 
 notes_path, version = sys.argv[1], sys.argv[2]
-root = os.getcwd()
-rows = json.load(open(os.path.join(root, "data", "settings-urls.json"), encoding="utf-8"))
+rows = json.load(open("data/settings-urls.json", encoding="utf-8"))
+builds = json.load(open("shortcuts/manifest.json", encoding="utf-8"))
 
-total = len(rows)
 families = {}
 for row in rows:
     families[row["family"]] = families.get(row["family"], 0) + 1
@@ -105,27 +110,34 @@ verified = sum(1 for row in rows if row["versions"])
 chinese = sum(1 for row in rows if row["label_zh"])
 sources = len({source for row in rows for source in row["sources"]})
 
-phone = sum(1 for row in rows
-            if row["family"] in ("prefs", "settings-navigation")
-            and not row["status"] and (row["label_zh"] or row["label"]))
-phone_all = sum(1 for row in rows if row["family"] in ("prefs", "settings-navigation"))
-watch = families.get("bridge", 0)
+USE = {
+    "phone": "Daily use on iPhone and iPad.",
+    "phone_all": "Adds pages with no name, and old pages.",
+    "watch": "Apple Watch pages, opened from the Watch app.",
+}
+LANGUAGE_NAME = {"en": "English", "zh-TW": "Traditional Chinese"}
+
+table = ["| Download | Language | Entries | Use it for |", "| --- | --- | ---: | --- |"]
+for build in builds:
+    table.append(
+        f"| `{build['asset']}` | {LANGUAGE_NAME.get(build['language'], build['language'])} "
+        f"| {build['entries']} | {USE.get(build['key'], '')} |"
+    )
 
 text = f"""## Install
 
-Download a `.shortcut` file, AirDrop it to your iPhone, then tap "Add Shortcut".
-You can also open the file on a Mac, and iCloud syncs the shortcut to your iPhone.
+Download one `.shortcut` file, AirDrop it to your iPhone, then tap "Add Shortcut".
+On a Mac you can open the file directly, and iCloud syncs the shortcut to your iPhone.
 
-| File | Entries | Use it for |
-| --- | ---: | --- |
-| `iOS-Settings-Launcher.shortcut` | {phone} | Daily use on iPhone and iPad. |
-| `iOS-Settings-Launcher-(Full).shortcut` | {phone_all} | Adds pages with no name, and old pages. |
-| `Apple-Watch-Settings-Launcher.shortcut` | {watch} | Apple Watch pages, opened from the Watch app. |
+{chr(10).join(table)}
 
-The `iOS-設定捷徑*.shortcut` files are the Traditional Chinese build.
-They show the official Apple Chinese name and the English name on every row.
+The Traditional Chinese build shows the official Apple Chinese name and the English
+name on every row, so you can search in either language.
 
-Each ZIP holds the same shortcuts with their original file names, including spaces.
+A release asset name must be plain ASCII, so the names above use hyphens.
+Each `shortcuts-<language>-{version}.zip` holds the same files with their real
+names, for example `iOS 設定捷徑.shortcut`. Rename the shortcut after import if
+you want a different name.
 
 ## Use it
 
@@ -136,12 +148,14 @@ Each ZIP holds the same shortcuts with their original file names, including spac
 
 ## Data in this release
 
-- {total} URLs from {sources} public sources
-- {families.get("prefs", 0)} `prefs:`, {families.get("bridge", 0)} `bridge:`, {families.get("settings-navigation", 0)} `settings-navigation://`
+- {len(rows)} URLs from {sources} public sources
+- {families.get("prefs", 0)} `prefs:`, {families.get("bridge", 0)} `bridge:`, \
+{families.get("settings-navigation", 0)} `settings-navigation://`
 - {verified} URLs appear in an Apple system file export (iOS 16.2, 18.7.1, 26.2)
 - {chinese} URLs carry the official Traditional Chinese name
 
-`settings-urls.json` is the machine readable list. `settings-urls.md` is the same data for humans.
+`settings-urls.json` is the machine readable list. `settings-urls.md` is the same
+data for humans.
 
 ## Notes
 
@@ -151,7 +165,7 @@ Use inside the Shortcuts app has no such problem.
 
 with open(notes_path, "w", encoding="utf-8") as handle:
     handle.write(text)
-print(f"  notes: {total} URLs, {phone}/{phone_all}/{watch} per shortcut")
+print(f"  notes: {len(rows)} URLs, {len(builds)} shortcuts")
 PYTHON
 
 echo "==> Tagging $version"
@@ -170,4 +184,4 @@ gh release create "${create_args[@]}" "${assets[@]}"
 
 echo "==> Done"
 gh release view "$version" --json url,assets \
-  --jq '"\(.url)\n" + ([.assets[] | "  \(.name) (\(.size) bytes)"] | join("\n"))'
+  --jq '.url, (.assets[] | "  \(.name) (\(.size) bytes)")'

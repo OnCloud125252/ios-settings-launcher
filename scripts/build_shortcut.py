@@ -26,6 +26,13 @@ LANGUAGES = {
             "phone_all": "iOS \u8a2d\u5b9a\u6377\u5f91 \u5b8c\u6574\u7248",
             "watch": "Apple Watch \u8a2d\u5b9a\u6377\u5f91",
         },
+        # GitHub deletes every non ASCII character from a release asset name,
+        # so a release needs plain names that stay unique.
+        "assets": {
+            "phone": "iOS-Settings-Launcher-zh-TW.shortcut",
+            "phone_all": "iOS-Settings-Launcher-Full-zh-TW.shortcut",
+            "watch": "Apple-Watch-Settings-Launcher-zh-TW.shortcut",
+        },
         "prompts": {
             "phone": "\u8f38\u5165\u95dc\u9375\u5b57\uff08\u4e2d\u82f1\u6587\u7686\u53ef\uff0c\u7559\u7a7a\uff1d\u5168\u90e8 {count} \u7b46\uff09",
             "phone_all": "\u8f38\u5165\u95dc\u9375\u5b57\uff08\u542b\u672a\u6e2c\u8a66\u9805\u76ee\uff0c\u5171 {count} \u7b46\uff09",
@@ -39,6 +46,11 @@ LANGUAGES = {
             "phone": "iOS Settings Launcher",
             "phone_all": "iOS Settings Launcher (Full)",
             "watch": "Apple Watch Settings Launcher",
+        },
+        "assets": {
+            "phone": "iOS-Settings-Launcher.shortcut",
+            "phone_all": "iOS-Settings-Launcher-Full.shortcut",
+            "watch": "Apple-Watch-Settings-Launcher.shortcut",
         },
         "prompts": {
             "phone": "Keyword (leave empty for all {count} pages)",
@@ -296,9 +308,20 @@ def row_sets():
     return {"phone": phone, "phone_all": phone_all, "watch": watch}
 
 
+def write_manifest(entries):
+    """Record what was built. scripts/release.sh reads this file."""
+    path = os.path.join(ROOT, "shortcuts", "manifest.json")
+    data = json.dumps(entries, ensure_ascii=False, indent=1) + "\n"
+    if not os.path.exists(path) or open(path, encoding="utf-8").read() != data:
+        with open(path, "w", encoding="utf-8") as handle:
+            handle.write(data)
+    return path
+
+
 def main():
     wanted = sys.argv[1:] or list(LANGUAGES)
     sets = row_sets()
+    manifest = []
 
     for language in wanted:
         if language not in LANGUAGES:
@@ -313,9 +336,19 @@ def main():
             name = config["names"][key]
             workflow = build_workflow(lines, prompt, config["choose"], f"{language}:{key}")
             path, changed = write_unsigned(workflow, name, out_dir)
+            manifest.append({
+                "language": language,
+                "key": key,
+                "name": name,
+                "file": f"shortcuts/{language}/{name}.shortcut",
+                "asset": config["assets"][key],
+                "entries": len(lines),
+            })
             print(f"{language:6s} {name:32s} {len(lines):5d} entries  "
                   f"{os.path.getsize(path) / 1024:5.0f} KB  {'written' if changed else 'unchanged'}")
 
+    if sorted(wanted) == sorted(LANGUAGES):
+        write_manifest(manifest)
     print("\nNow run scripts/sign_all.sh to sign every file.")
 
 
