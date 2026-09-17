@@ -19,21 +19,39 @@ This project does two things.
 
 ## Install the Shortcut
 
-Pick a file, AirDrop it to your iPhone, then tap "Add Shortcut".
-You can also open the file on a Mac. iCloud then syncs the shortcut to your iPhone.
+The fastest way is the [latest release](https://github.com/OnCloud125252/ios-settings-launcher/releases/latest).
+It holds the same files, and the download link is clean.
 
-| File | Entries | Use it for |
+You can also download straight from this repository.
+
+| Download | Entries | Use it for |
 | --- | ---: | --- |
-| [`shortcuts/en/iOS Settings Launcher.shortcut`](shortcuts/en) | 1758 | Daily use on iPhone and iPad. |
-| [`shortcuts/en/iOS Settings Launcher (Full).shortcut`](shortcuts/en) | 1878 | Adds pages with no name, and old pages. |
-| [`shortcuts/en/Apple Watch Settings Launcher.shortcut`](shortcuts/en) | 711 | `bridge:` pages, opened from the Watch app. |
+| [iOS Settings Launcher](https://github.com/OnCloud125252/ios-settings-launcher/raw/main/shortcuts/en/iOS%20Settings%20Launcher.shortcut) | 1758 | Daily use on iPhone and iPad. |
+| [iOS Settings Launcher (Full)](https://github.com/OnCloud125252/ios-settings-launcher/raw/main/shortcuts/en/iOS%20Settings%20Launcher%20%28Full%29.shortcut) | 1878 | Adds pages with no name, and old pages. |
+| [Apple Watch Settings Launcher](https://github.com/OnCloud125252/ios-settings-launcher/raw/main/shortcuts/en/Apple%20Watch%20Settings%20Launcher.shortcut) | 711 | `bridge:` pages, opened from the Watch app. |
 
-A Traditional Chinese build is in [`shortcuts/zh-TW/`](shortcuts/zh-TW).
-It shows the official Apple Chinese name and the English name on every row, so you can search in either language.
+Traditional Chinese build, which shows the official Apple Chinese name and the English name on every row:
+
+| 下載 | 筆數 |
+| --- | ---: |
+| [iOS 設定捷徑](https://github.com/OnCloud125252/ios-settings-launcher/raw/main/shortcuts/zh-TW/iOS%20%E8%A8%AD%E5%AE%9A%E6%8D%B7%E5%BE%91.shortcut) | 1758 |
+| [iOS 設定捷徑 完整版](https://github.com/OnCloud125252/ios-settings-launcher/raw/main/shortcuts/zh-TW/iOS%20%E8%A8%AD%E5%AE%9A%E6%8D%B7%E5%BE%91%20%E5%AE%8C%E6%95%B4%E7%89%88.shortcut) | 1878 |
+| [Apple Watch 設定捷徑](https://github.com/OnCloud125252/ios-settings-launcher/raw/main/shortcuts/zh-TW/Apple%20Watch%20%E8%A8%AD%E5%AE%9A%E6%8D%B7%E5%BE%91.shortcut) | 711 |
+
+### Steps
+
+1. Download the file on a Mac, then AirDrop it to your iPhone.
+2. The Shortcuts app opens. Tap "Add Shortcut".
+
+On a Mac you can also open the file directly. iCloud then syncs the shortcut to your iPhone.
+On an iPhone, a download goes to the Files app. Tap the file there to import it.
+
+The shortcut does nothing useful on a Mac. `prefs:` works only on iOS.
+
+### If the signed file fails to import
 
 The `unsigned/` folder holds the same shortcuts without an Apple signature.
-Use those only if the signed file fails to import.
-First turn on Settings → Shortcuts → Allow Untrusted Shortcuts.
+First turn on Settings → Shortcuts → Allow Untrusted Shortcuts. That switch appears after you run a shortcut once.
 
 ## Use the Shortcut
 
@@ -124,6 +142,7 @@ scripts/generate.py          data -> docs/settings-urls.md
 scripts/build_shortcut.py    data -> unsigned .shortcut files
 scripts/sign_all.sh          sign every .shortcut with the Apple service
 scripts/verify_shortcut.py   check action wiring and simulate a search
+scripts/release.sh           check, tag, and publish a GitHub release
 shortcuts/<language>/        signed shortcuts, plus unsigned copies
 ```
 
@@ -141,6 +160,10 @@ make verify     # check the result
 ```
 
 `make all` runs everything except signing.
+
+To publish, run `make release VERSION=v1.0.0`.
+The script checks the tree, the signatures, and the shortcut logic first.
+Then it tags, and uploads every shortcut plus the data files to a GitHub release.
 
 Signing calls an Apple service. That service fails often and returns HTTP 5xx.
 `scripts/sign_all.sh` retries, and it never deletes a shortcut that is already signed.

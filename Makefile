@@ -1,4 +1,4 @@
-.PHONY: all fetch merge docs shortcuts sign verify clean
+.PHONY: all fetch merge docs shortcuts sign verify release clean
 
 all: fetch merge docs shortcuts verify
 
@@ -19,6 +19,10 @@ sign:
 
 verify:
 	python3 scripts/verify_shortcut.py
+
+# Example: make release VERSION=v1.0.0
+release:
+	./scripts/release.sh $(VERSION)
 
 clean:
 	rm -rf raw __pycache__ scripts/__pycache__ sign.log
