@@ -1,10 +1,10 @@
-# iOS Settings URLs
+# iOS Settings Launcher
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform: iOS 16+](https://img.shields.io/badge/Platform-iOS%2016%2B-black.svg)](https://www.apple.com/ios/)
 [![Data: 2589 URLs](https://img.shields.io/badge/Data-2589%20URLs-green.svg)](data/settings-urls.json)
 
-*A merged list of 2589 iOS Settings URLs, and a Shortcut that opens any of them by keyword search.*
+*Open any page of the iOS Settings app from a Shortcut. Search 2589 Settings URLs by keyword.*
 
 ## Overview
 
