@@ -6,7 +6,8 @@
 # The script checks everything first, then tags, then uploads.
 # GitHub deletes every non ASCII character from an asset name, and turns a
 # space into a period. So each single file uses the plain name from
-# shortcuts/manifest.json. Each ZIP keeps the real file names.
+# shortcuts/manifest.json. Each ZIP keeps the real file names, with the
+# UTF-8 name flag set.
 set -eu
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
@@ -28,7 +29,6 @@ fail() {
 echo "==> Checking the repository"
 
 command -v gh >/dev/null || fail "the gh command is not installed"
-command -v zip >/dev/null || fail "the zip command is not installed"
 gh auth status >/dev/null 2>&1 || fail "gh is not logged in"
 
 branch="$(git rev-parse --abbrev-ref HEAD)"
@@ -80,13 +80,29 @@ for row in json.load(open("shortcuts/manifest.json", encoding="utf-8")):
     print(row["file"], row["asset"], sep="\t")
 ')
 
-for language_dir in shortcuts/*/; do
-  language="$(basename "$language_dir")"
-  bundle="$stage/shortcuts-$language-$version.zip"
-  # -j drops the folder path, so the ZIP holds the files with their real names.
-  (cd "$language_dir" && zip -q -j "$bundle" ./*.shortcut)
+# Python writes the ZIP, because the macOS zip command leaves the UTF-8 name
+# flag off. Without that flag a Chinese file name turns into garbage.
+while IFS= read -r bundle; do
   assets+=("$bundle")
-done
+done < <(python3 - "$stage" "$version" <<'PYTHON'
+import glob
+import os
+import sys
+import zipfile
+
+stage, version = sys.argv[1], sys.argv[2]
+for language_dir in sorted(glob.glob("shortcuts/*/")):
+    language = os.path.basename(language_dir.rstrip("/"))
+    files = sorted(glob.glob(os.path.join(language_dir, "*.shortcut")))
+    if not files:
+        continue
+    bundle = os.path.join(stage, f"shortcuts-{language}-{version}.zip")
+    with zipfile.ZipFile(bundle, "w", zipfile.ZIP_DEFLATED) as archive:
+        for path in files:
+            archive.write(path, os.path.basename(path))
+    print(bundle)
+PYTHON
+)
 
 cp data/settings-urls.json "$stage/settings-urls.json"
 cp docs/settings-urls.md "$stage/settings-urls.md"
