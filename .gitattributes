@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.shortcut binary
+data/settings-urls.json linguist-generated=true
+docs/settings-urls.md linguist-generated=true
+shortcuts/** linguist-generated=true

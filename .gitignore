@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Upstream pages and dumps. They belong to their authors.
+# Run scripts/fetch_sources.py to download them again.
+raw/
+
+# Signing log
+sign.log

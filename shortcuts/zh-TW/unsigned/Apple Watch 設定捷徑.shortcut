@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFQuickActionSurfaces</key>
+	<array/>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Settings URL List</string>
+				<key>UUID</key>
+				<string>48ACF599-B2D1-5BA1-AD74-5317A39786C1</string>
+				<key>WFTextActionText</key>
+				<string>輔助使用 ｜ Accessibility ⇢ bridge:root=ACCESSIBILITY
+輔助使用 ｜ Accessibility ⇢ bridge:root=ACCESSIBILITY_ID
+動作按鈕 ｜ Action Button ⇢ bridge:root=ACTION_BUTTON_ID
+動作按鈕 ｜ Action Button ⇢ bridge:root=STING_TITLE
+活動記錄 ｜ Activity ⇢ bridge:root=com.apple.HealthAppsSettings
+App Store ⇢ bridge:root=com.apple.BridgeAppStoreDaemonSettings
+App顯示方式 ｜ App View ⇢ bridge:root=APP_VIEW_ID
+有聲書 ｜ Audiobooks ⇢ bridge:root=com.apple.NanoBooks.BridgeSettings
+血氧濃度 ｜ Blood Oxygen ⇢ bridge:root=com.apple.OxygenSaturationSettings
+行事曆 ｜ Calendar ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings
+電信業者設定 ｜ Carrier Settings ⇢ bridge:root=CARRIER_SETTINGS
+行動服務 ｜ Cellular ⇢ bridge:root=CELLULAR_ID
+時鐘 ｜ Clock ⇢ bridge:root=com.apple.NanoClockBridgeSettings
+複雜功能 ｜ Complications ⇢ bridge:root=COMPLICATIONS
+聯絡人 ｜ Contacts ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired
+控制中心 ｜ Control Center ⇢ bridge:root=CONTROL_CENTER_ID
+水深 ｜ Depth ⇢ bridge:root=com.apple.DepthCompanionSettings
+螢幕顯示與亮度 ｜ Display &amp; Brightness ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS
+螢幕顯示與亮度 ｜ Display &amp; Brightness ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID
+Dock ⇢ bridge:root=DOCK
+Dock ⇢ bridge:root=DOCK.0
+SOS緊急服務 ｜ Emergency SOS ⇢ bridge:root=SOS_MODE_ID
+尋找我的Apple Watch ｜ Find My Apple Watch ⇢ bridge:root=ActiveWatch
+一般 ｜ General ⇢ bridge:root=GENERAL_LINK
+手勢 ｜ Gestures ⇢ bridge:root=ELTON_SETTINGS_ID
+洗手 ｜ Handwashing ⇢ bridge:root=com.apple.BrookBridgeSettings
+健康 ｜ Health ⇢ bridge:root=com.apple.BridgeHealthSettings
+心臟 ｜ Heart ⇢ bridge:root=com.apple.HeartRateSettings
+郵件 ｜ Mail ⇢ bridge:root=com.apple.NanoMailBridgeSettings
+郵件與行事曆 ｜ Mail &amp; Calendar ⇢ bridge:root=com.apple.BridgeRemoteAccounts
+訊息 ｜ Messages ⇢ bridge:root=com.apple.MessagesBridgeSettings
+傳送讀取回條 ｜ Send Read Receipts ⇢ bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS
+正念 ｜ Mindfulness ⇢ bridge:root=com.apple.MindSettings
+Nike Run Club ⇢ bridge:root=VICTORY_ROW_ID
+噪音 ｜ Noise ⇢ bridge:root=com.apple.Noise.settings
+電話 ｜ Phone ⇢ bridge:root=com.apple.PhoneBridgeSettings
+照片 ｜ Photos ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings
+Podcast ｜ Podcasts ⇢ bridge:root=com.apple.private.PodcastsBridgeSettings
+隱私權 ｜ Privacy ⇢ bridge:root=PRIVACY_ID
+上課時間 ｜ Schooltime ⇢ bridge:root=SCHOOLTIME
+螢幕使用時間 ｜ Screen Time ⇢ bridge:root=SCREEN_TIME_ID
+所選的相簿 ｜ Selected Photo Album ⇢ bridge:root=com.apple.mobileslideshow
+Siri ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID
+睡眠 ｜ Sleep ⇢ bridge:root=com.apple.NanoBedtimeBridgeSettings
+智慧型堆疊 ｜ Smart Stack ⇢ bridge:root=SMARTSTACK_LINK
+音效與觸覺回饋 ｜ Sounds &amp; Haptics ⇢ bridge:root=SOUNDS_ID
+Siri卡片所選的股票 ｜ Stocks ⇢ bridge:root=com.apple.StocksBridgeSettings
+儲存空間上限 ｜ Storage Limit ⇢ bridge:root=com.apple.NanoMusicBridgeSettings
+提示 ｜ Tips ⇢ bridge:root=com.apple.NanoTipsBridgeSettings
+地圖 ｜ Turn Alerts ⇢ bridge:root=com.apple.NanoMapsBridgeSettings
+密碼 ｜ Turn Passcode Off ⇢ bridge:root=PASSCODE_ID
+對講機 ｜ Walkie-Talkie ⇢ bridge:root=com.apple.tincan.settings
+錢包與Apple Pay ｜ Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings
+天氣 ｜ Weather ⇢ bridge:root=com.apple.weatherbridgesettings
+體能訓練 ｜ Workout ⇢ bridge:root=com.apple.SessionTrackerAppSettings
+輔助使用 → 粗體文字 ｜ Bold Text ⇢ bridge:root=ACCESSIBILITY#BoldTextEnabled
+輔助使用 → 灰階 ｜ Grayscale ⇢ bridge:root=ACCESSIBILITY#GrayscaleDisplay
+輔助使用 → 耳機通知 ｜ Headphone Notifications ⇢ bridge:root=ACCESSIBILITY#HeadphoneNotificationsID
+輔助使用 → 聽力 ｜ Hearing ⇢ bridge:root=ACCESSIBILITY#HEARING
+輔助使用 → 助聽裝置 ｜ Hearing Devices ⇢ bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID
+輔助使用 → 左右立體聲平衡 ｜ Left-Right Stereo Balance ⇢ bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN
+輔助使用 → 輪椅活動 ｜ WHEELCHAIR ACTIVITY ⇢ bridge:root=ACCESSIBILITY#MOBILITY
+輔助使用 → 單聲道音訊 ｜ Mono Audio ⇢ bridge:root=ACCESSIBILITY#MonoAudioEnabled
+輔助使用 → 動作 ｜ Motor ⇢ bridge:root=ACCESSIBILITY#MotorGroupCell
+輔助使用 → 開啟/關閉標籤 ｜ On/Off Labels ⇢ bridge:root=ACCESSIBILITY#OnOffLabelsEnabled
+輔助使用 → 減少透明度 ｜ Reduce Transparency ⇢ bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY
+輔助使用 → 觸覺回饋時間速度 ｜ Taptic Time Speed ⇢ bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup
+輔助使用 → 視覺 ｜ Vision ⇢ bridge:root=ACCESSIBILITY#VISION
+輔助使用 → 點一下來說話 ｜ Tap to Talk ⇢ bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk
+輔助使用 → 對講機 ｜ Walkie-Talkie ⇢ bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup
+輔助使用 → 輔助使用快速鍵 ｜ Accessibility Shortcut ⇢ bridge:root=ACCESSIBILITY&amp;path=AX_SHORTCUT
+輔助使用 → 複雜功能 ｜ Complication ⇢ bridge:root=ACCESSIBILITY&amp;path=HearingDevicesComplicationRowID
+輔助使用 → 減少動態效果 ｜ Reduce Motion ⇢ bridge:root=ACCESSIBILITY&amp;path=ReduceMotion
+輔助使用 → RTT ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT
+輔助使用 → 側邊按鈕按鍵速度 ｜ Side Button Click Speed ⇢ bridge:root=ACCESSIBILITY&amp;path=SideButton
+輔助使用 → 響鈴 ｜ Chimes ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell
+輔助使用 → 觸控調節 ｜ Touch Accommodations ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell
+輔助使用 → 旁白 ｜ VoiceOver ⇢ bridge:root=ACCESSIBILITY&amp;path=VOICEOVER_TITLE
+輔助使用 → 縮放 ｜ Zoom ⇢ bridge:root=ACCESSIBILITY&amp;path=ZOOM_TITLE
+輔助使用 → 自動選取焦點內的App ｜ Auto-Select Focused App ⇢ bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelect
+輔助使用 → App切換器 ｜ App Switcher ⇢ bridge:root=ACCESSIBILITY_ID#AppSwitcherAutoSelectGroup
+輔助使用 → 粗體文字 ｜ Bold Text ⇢ bridge:root=ACCESSIBILITY_ID#BoldTextEnabled
+輔助使用 → 灰階 ｜ Grayscale ⇢ bridge:root=ACCESSIBILITY_ID#GrayscaleDisplay
+輔助使用 → 耳機通知 ｜ Headphone Notifications ⇢ bridge:root=ACCESSIBILITY_ID#HeadphoneNotificationsID
+輔助使用 → 聽力 ｜ Hearing ⇢ bridge:root=ACCESSIBILITY_ID#HEARING
+輔助使用 → 助聽裝置 ｜ Hearing Devices ⇢ bridge:root=ACCESSIBILITY_ID#HearingDevicesComplicationGroupID
+輔助使用 → 增加對比 ｜ Increase Contrast ⇢ bridge:root=ACCESSIBILITY_ID#INCREASE_CONTRAST
+輔助使用 → 左右立體聲平衡 ｜ Left-Right Stereo Balance ⇢ bridge:root=ACCESSIBILITY_ID#LEFT_RIGHT_BALANCE_SPOKEN
+輔助使用 → 輪椅活動 ｜ Wheelchair Activity ⇢ bridge:root=ACCESSIBILITY_ID#MOBILITY
+輔助使用 → 單聲道音訊 ｜ Mono Audio ⇢ bridge:root=ACCESSIBILITY_ID#MonoAudioEnabled
+輔助使用 → 動作 ｜ Motor ⇢ bridge:root=ACCESSIBILITY_ID#MotorGroupCell
+輔助使用 → 開啟/關閉標籤 ｜ On/Off Labels ⇢ bridge:root=ACCESSIBILITY_ID#OnOffLabelsEnabled
+輔助使用 → 減少透明度 ｜ Reduce Transparency ⇢ bridge:root=ACCESSIBILITY_ID#REDUCE_TRANSPARENCY
+輔助使用 → 觸覺回饋時間速度 ｜ Taptic Time Speed ⇢ bridge:root=ACCESSIBILITY_ID#TapticTimeSpeedAdjustmentGroup
+輔助使用 → 文字大小 ｜ Text Size ⇢ bridge:root=ACCESSIBILITY_ID#TEXT_SIZE
+輔助使用 → 視覺 ｜ Vision ⇢ bridge:root=ACCESSIBILITY_ID#VISION_GROUP
+輔助使用 → 點一下來說話 ｜ Tap to Talk ⇢ bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalk
+輔助使用 → 對講機 ｜ Walkie-Talkie ⇢ bridge:root=ACCESSIBILITY_ID#WalkieTalkieTapToTalkGroup
+輔助使用 → 輔助使用快速鍵 ｜ Accessibility Shortcut ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=AX_SHORTCUT_ID
+輔助使用 → 複雜功能 ｜ Complication ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=HearingDevicesComplicationRowID
+輔助使用 → 減少動態效果 ｜ Reduce Motion ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=ReduceMotion
+輔助使用 → RTT ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=RTT_ID
+輔助使用 → 側邊按鈕按鍵速度 ｜ Side Button Click Speed ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SideButton
+輔助使用 → Siri ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SIRI_CELL_ID
+輔助使用 → 響鈴 ｜ Chimes ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell
+輔助使用 → 觸控調節 ｜ Touch Accommodations ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell
+輔助使用 → 旁白 ｜ VoiceOver ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=VOICEOVER_ID
+輔助使用 → 縮放 ｜ Zoom ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=ZOOM_ID
+動作按鈕 → 動作 ｜ Action ⇢ bridge:root=ACTION_BUTTON_ID#StingSystemSettingsActionTypeGroupID
+動作按鈕 → 第一次按下 ｜ First Press ⇢ bridge:root=ACTION_BUTTON_ID#StingSystemSettingsWorkoutGroupID
+動作按鈕 → 快速切換 ｜ Quick Switch ⇢ bridge:root=ACTION_BUTTON_ID&amp;path=ShowQuickSwitch
+動作按鈕 → 體能訓練 ｜ Workout ⇢ bridge:root=ACTION_BUTTON_ID&amp;path=StingSystemSettingsActionTypeItem
+活動記錄 → 成就 ｜ Achievements ⇢ bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL
+活動記錄 → 活動記錄分享通知 ｜ Activity Sharing Notifications ⇢ bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED
+活動記錄 → 每日指導 ｜ Daily Coaching ⇢ bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL
+活動記錄 → 目標完成 ｜ Goal Completions ⇢ bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL
+活動記錄 → 特殊挑戰 ｜ Special Challenges ⇢ bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL
+活動記錄 → 每週摘要 ｜ Weekly Summary ⇢ bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL
+活動記錄 → 進度更新 ｜ Progress Updates ⇢ bridge:root=com.apple.HealthAppsSettings&amp;path=PROGRESS_UPDATES_ENABLED_LABEL
+App Store → 自動更新 ｜ Automatic Updates ⇢ bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates
+App Store → 自動下載 ｜ Automatic Downloads ⇢ bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier
+有聲書 → 登入 ｜ Sign In ⇢ bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In
+行事曆 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID
+行事曆 → 行事曆 ｜ CALENDARS ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID
+行事曆 → 自訂⋯ ｜ Custom… ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID
+行事曆 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID
+行事曆 → 通知 ｜ NOTIFICATIONS ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID
+行事曆 → 自訂⋯ ｜ Custom… ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=CALENDARS_CUSTOM_ID
+行事曆 → 邀請 ｜ Invitations ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Invitations
+行事曆 → 邀請對象回覆 ｜ Invitee Responses ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Invitee%20Responses
+行事曆 → 共享的行事曆更動 ｜ Shared Calendar Changes ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Shared%20Calendar%20Alerts
+行事曆 → 即將到來的行程 ｜ Upcoming Events ⇢ bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Upcoming%20Events
+時鐘 → 24小時制 ｜ 24-Hour Time ⇢ bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time
+時鐘 → 永遠報時 ｜ Always Speak ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak
+時鐘 → 鐘聲 ｜ Chimes ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Chimes
+時鐘 → 以「靜音模式」控制 ｜ Control With Silent Mode ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode
+時鐘 → 通知指示符號 ｜ Notifications Indicator ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator
+時鐘 → 推播iPhone上的提示 ｜ Push Alerts from iPhone ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone
+時鐘 → 報時 ｜ Speak Time ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time
+時鐘 → 錶面通知 ｜ Watch Face Notifications ⇢ bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications
+時鐘 → 城市簡稱 ｜ City Abbreviations ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=City%20Abbreviations
+時鐘 → 姓名簡稱 ｜ Monogram ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=MONOGRAM_ID
+時鐘 → Siri錶面資料來源 ｜ Siri Face Data Sources ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Siri%20Face%20Data%20Sources
+時鐘 → 聲音 ｜ Sounds ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Sounds
+時鐘 → 觸覺回饋時間 ｜ Taptic Time ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Taptic%20Time
+聯絡人 → 排序 ｜ Sort Order ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=contactsSortOrder
+聯絡人 → 顯示順序 ｜ Display Order ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=NSPersonNameDefaultDisplayNameOrder
+聯絡人 → 簡稱 ｜ Short Name ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName
+控制中心 → 重置「控制中心」佈局 ｜ Reset Control Center Layout ⇢ bridge:root=CONTROL_CENTER_ID#CONTROL_CENTER_RESET_ID
+螢幕顯示與亮度 → 粗體文字 ｜ Bold Text ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT
+螢幕顯示與亮度 → 亮度 ｜ Brightness ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL
+螢幕顯示與亮度 → 文字大小 ｜ Text Size ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE
+螢幕顯示與亮度 → 喚醒 ｜ WAKE ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE
+螢幕顯示與亮度 → 轉動錶冠時喚醒 ｜ Wake on Crown Rotation ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID
+螢幕顯示與亮度 → 抬起手腕時喚醒 ｜ Wake on Wrist Raise ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID
+螢幕顯示與亮度 → 永遠開啟 ｜ Always On ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID
+螢幕顯示與亮度 → 喚醒持續時間 ｜ Wake Duration ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=Wake%20Duration
+螢幕顯示與亮度 → 粗體文字 ｜ Bold Text ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BOLD_TEXT
+螢幕顯示與亮度 → 亮度 ｜ Brightness ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID#BRIGHTNESS_LABEL
+螢幕顯示與亮度 → 文字大小 ｜ Text Size ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID#TEXT_SIZE
+螢幕顯示與亮度 → 喚醒 ｜ Wake ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID#Wake
+螢幕顯示與亮度 → 轉動錶冠時喚醒 ｜ Wake on Crown Rotation ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID
+螢幕顯示與亮度 → 抬起手腕時喚醒 ｜ Wake on Wrist Raise ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID
+螢幕顯示與亮度 → 永遠顯示 ｜ Always On ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID
+螢幕顯示與亮度 → 喚醒持續時間 ｜ Wake Duration ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY
+Dock → 喜好項目 ｜ Favorites ⇢ bridge:root=DOCK#Favorites
+Dock → Dock排列 ｜ Dock Ordering ⇢ bridge:root=DOCK#OrderingOptionGroup
+Dock → 最近項目 ｜ Recents ⇢ bridge:root=DOCK#Recents
+Dock → 喜好項目 ｜ Favorites ⇢ bridge:root=DOCK.0#Favorites
+Dock → Dock排列 ｜ Dock Ordering ⇢ bridge:root=DOCK.0#OrderingOptionGroup
+Dock → 最近項目 ｜ Recents ⇢ bridge:root=DOCK.0#Recents
+尋找我的Apple Watch → 配對新的Apple Watch ｜ Pair New Watch ⇢ bridge:root=ActiveWatch&amp;path=Pair%20New%20Watch
+一般 → 自動App安裝 ｜ Automatic App Install ⇢ bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID
+一般 → 啟用截圖 ｜ Enable Screenshots ⇢ bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID
+一般 → 啟用接力 ｜ Enable Handoff ⇢ bridge:root=GENERAL_LINK#CONTINUITY
+一般 → 啟用接力 ｜ Enable Handoff ⇢ bridge:root=GENERAL_LINK#CONTINUITY_ID
+一般 → 自動標點符號 ｜ Auto-Punctuation ⇢ bridge:root=GENERAL_LINK#DICTATION_AUTO_PUNCTUATION_CELL_ID
+一般 → 啟用聽寫 ｜ Enable Dictation ⇢ bridge:root=GENERAL_LINK#DICTATION_CELL_ID
+一般 → 拷貝Apple Watch分析 ｜ Copy Watch Analytics ⇢ bridge:root=GENERAL_LINK#LOGS_CELL_ID
+一般 → 夜鐘模式 ｜ Nightstand Mode ⇢ bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID
+一般 → 關於本機 ｜ About ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT
+一般 → 飛航模式 ｜ Airplane Mode ⇢ bridge:root=GENERAL_LINK&amp;path=AIRPLANE_MODE_ID
+一般 → 浸入水中時自動啟動 ｜ Auto-launch when Submerged ⇢ bridge:root=GENERAL_LINK&amp;path=AUTO_LAUNCH
+一般 → 自動啟動 ｜ Auto-Launch ⇢ bridge:root=GENERAL_LINK&amp;path=AUTO_LAUNCH_ID
+一般 → 背景App重新整理 ｜ Background App Refresh ⇢ bridge:root=GENERAL_LINK&amp;path=BAR_ROW_ID
+一般 → 診斷記錄 ｜ Diagnostic Logs ⇢ bridge:root=GENERAL_LINK&amp;path=DIAGNOSTIC_LOG_BROWSER
+一般 → 專注模式 ｜ Focus ⇢ bridge:root=GENERAL_LINK&amp;path=FOCUS_ID
+一般 → 手錶方向 ｜ Watch Orientation ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION
+一般 → 手錶方向 ｜ Watch Orientation ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION_ID
+一般 → 語言與地區 ｜ Language &amp; Region ⇢ bridge:root=GENERAL_LINK&amp;path=LANGUAGE_AND_REGION
+一般 → 語言與地區 ｜ Language &amp; Region ⇢ bridge:root=GENERAL_LINK&amp;path=LANGUAGE_AND_REGION_ID
+一般 → Apple帳號 ｜ Apple Account ⇢ bridge:root=GENERAL_LINK&amp;path=LINK_WITH_ICLOUD_LINK
+一般 → 個人檔案 ｜ Profile ⇢ bridge:root=GENERAL_LINK&amp;path=ManagedConfigurationList
+一般 → 重置 ｜ Reset ⇢ bridge:root=GENERAL_LINK&amp;path=RESET
+一般 → 重置 ｜ Reset ⇢ bridge:root=GENERAL_LINK&amp;path=RESET_ID
+一般 → 返回錶面 ｜ RETURN TO CLOCK ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK
+一般 → 返回錶面 ｜ RETURN TO CLOCK ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK_ID
+一般 → 軟體更新 ｜ Software Update ⇢ bridge:root=GENERAL_LINK&amp;path=SOFTWARE_UPDATE_LINK
+一般 → 上次充飽電後的使用時間 ｜ Time Since Last Full Charge ⇢ bridge:root=GENERAL_LINK&amp;path=USAGE_LINK
+一般 → Wake Screen ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN
+手勢 → 蓋住螢幕靜音 ｜ Cover to Mute ⇢ bridge:root=ELTON_SETTINGS_ID#Cover%20to%20Mute
+手勢 → 手勢 ｜ Gestures ⇢ bridge:root=ELTON_SETTINGS_ID#Gestures
+手勢 → 翻轉手腕 ｜ Wrist Flick ⇢ bridge:root=ELTON_SETTINGS_ID#Wrist%20Flick
+手勢 → 點兩下 ｜ Double Tap ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID
+洗手 → 允許通知 ｜ Allow Notifications ⇢ bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID
+洗手 → 洗手計時器 ｜ Handwashing Timer ⇢ bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID
+洗手 → 關閉通知 ｜ Notifications Off ⇢ bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID
+洗手 → 傳送到通知中心 ｜ Send to Notification Center ⇢ bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID
+洗手 → 通知分類 ｜ Notification Grouping ⇢ bridge:root=com.apple.BrookBridgeSettings&amp;path=NOTIFICATION_COALESCING_ID
+心臟 → 心臟 ｜ Heart ⇢ bridge:root=com.apple.HeartRateSettings#1
+心臟 → 心率通知 ｜ Heart Rate Notifications ⇢ bridge:root=com.apple.HeartRateSettings#2
+心臟 → 高心率 ｜ High Heart Rate ⇢ bridge:root=com.apple.HeartRateSettings#3
+心臟 → 低心率 ｜ Low Heart Rate ⇢ bridge:root=com.apple.HeartRateSettings#4
+心臟 → 心律不整 ｜ Irregular Rhythm ⇢ bridge:root=com.apple.HeartRateSettings#5
+心臟 → 在「健康」中檢視記錄的心電圖 ｜ View Recorded ECGs in Health ⇢ bridge:root=com.apple.HeartRateSettings#6
+心臟 → 心電圖 ｜ ECG ⇢ bridge:root=com.apple.HeartRateSettings#7
+郵件 → 自訂 ｜ Custom ⇢ bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID
+郵件 → 郵件設定 ｜ Mail Settings ⇢ bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings
+郵件 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID
+郵件 → 帳號 ｜ Accounts ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Accounts
+郵件 → 預設回覆 ｜ Default Replies ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Default%20Replies
+郵件 → 包含郵件 ｜ Include Mail ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Include%20Mail
+郵件 → 預覽郵件 ｜ Message Preview ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview
+郵件 → 簽名檔 ｜ Signature ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Signature
+郵件與行事曆 → 帳號 ｜ Accounts ⇢ bridge:root=com.apple.BridgeRemoteAccounts#Accounts
+郵件與行事曆 → 加入Google帳號⋯ ｜ Add Google Account... ⇢ bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT
+郵件與行事曆 → 擷取 ｜ Fetch ⇢ bridge:root=com.apple.BridgeRemoteAccounts&amp;path=Fetch
+訊息 → 自訂 ｜ Custom ⇢ bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID
+訊息 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID
+訊息 → 語音訊息 ｜ Audio Messages ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=AudioMessagesMode
+訊息 → 預設回覆 ｜ Default Replies ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DEFAULT_REPLIES
+訊息 → 重複提示 ｜ Repeat Alerts ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=PLAY_ALERT_TONE
+正念 → 加入提醒事項⋯ ｜ Add Reminder… ⇢ bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6
+正念 → 允許通知 ｜ Allow Notifications ⇢ bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID
+正念 → 當天結束 ｜ End of Day ⇢ bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER
+正念 → 正念提醒 ｜ Mindfulness Reminders ⇢ bridge:root=com.apple.MindSettings#MIND_GROUP_ID
+正念 → 今天不再提醒 ｜ Mute for today ⇢ bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID
+正念 → 一天開始 ｜ Start of Day ⇢ bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER
+正念 → 每週摘要 ｜ Weekly Summary ⇢ bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID
+正念 → 關閉通知 ｜ Notifications Off ⇢ bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID
+正念 → 傳送到通知中心 ｜ Send to Notification Center ⇢ bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID
+正念 → 呼吸速率 ｜ Breath Rate ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID
+正念 → 觸覺回饋 ｜ Haptics ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_HAPTICS_ID
+Nike Run Club → 在Apple Watch上顯示App ｜ Show App on Apple Watch ⇢ bridge:root=VICTORY_ROW_ID#SHOWS_ON_GIZMO
+噪音 → 環境聲音測量 ｜ Environmental Sound Measurements ⇢ bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID
+噪音 → 噪音通知 ｜ Noise Notifications ⇢ bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID
+噪音 → 噪音臨界值 ｜ Noise Threshold ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID
+噪音 → 通知分類 ｜ Notification Grouping ⇢ bridge:root=com.apple.Noise.settings&amp;path=NOTIFICATION_COALESCING_ID
+電話 → 通話 ｜ Calls ⇢ bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id
+電話 → 觸覺回饋 ｜ Haptic ⇢ bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC
+電話 → 聲音 ｜ Sound ⇢ bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND
+電話 → 鈴聲 ｜ Ringtone ⇢ bridge:root=com.apple.PhoneBridgeSettings#RINGTONE
+照片 → 相簿 ｜ Album ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#Album
+照片 → 自訂 ｜ Custom ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID
+照片 → 精選照片 ｜ Featured Photos ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos
+照片 → 回憶 ｜ Memories ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#Memories
+照片 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID
+照片 → 通知設定 ｜ Notification Settings ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID
+照片 → 照片同步 ｜ Photo Syncing ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing
+照片 → 同步精選照片 ｜ Sync Featured Photos ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos
+照片 → 同步回憶 ｜ Sync Memories ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories
+照片 → 照片上限 ｜ Photos Limit ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings&amp;path=Photos%20Limit
+照片 → 同步相簿 ｜ Sync Album ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings&amp;path=Sync%20Album
+隱私權 → 環境聲音測量 ｜ Environmental Sound Measurements ⇢ bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID
+隱私權 → 體能追蹤 ｜ Fitness Tracking ⇢ bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL
+隱私權 → 心率 ｜ Heart Rate ⇢ bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL
+隱私權 → 血氧濃度測量 ｜ Blood Oxygen Measurements ⇢ bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID
+隱私權 → 重置健身校正資料 ｜ Reset Fitness Calibration Data ⇢ bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL
+隱私權 → 呼吸速率 ｜ Respiratory Rate ⇢ bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL
+隱私權 → 手腕溫度 ｜ Wrist Temperature ⇢ bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID
+隱私權 → 耳機音效測量 ｜ Headphone Audio Measurements ⇢ bridge:root=PRIVACY_ID&amp;path=HeadphoneAudio
+上課時間 → 上課時間 ｜ Schooltime ⇢ bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE
+Siri → 跟Siri對話 ｜ Ask Siri ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID
+Siri → Siri建議 ｜ Siri Suggestions ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID
+Siri → 自動傳送訊息 ｜ Automatically Send Messages ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#AUTOMATICALLY_SEND_MESSAGES_SWITCH_ID
+Siri → 按下數位錶冠 ｜ Press Digital Crown ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID
+Siri → Siri ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID
+Siri → 抬起說話 ｜ Raise to Speak ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID
+Siri → 音量 ｜ Voice Volume ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID
+Siri → Siri回應 ｜ Siri Responses ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID
+Siri → 語音回饋 ｜ Voice Feedback ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_FEEDBACK_ID
+Siri → 聆聽 ｜ Listen for ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_TRIGGER_ID
+睡眠 → 在「健康」App中設定「睡眠」 ｜ Set Up Sleep in Health App ⇢ bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID
+音效與觸覺回饋 → 靜音模式 ｜ Silent Mode ⇢ bridge:root=SOUNDS_ID#audio_mute_switch
+音效與觸覺回饋 → 提示聲音量 ｜ Alert Volume ⇢ bridge:root=SOUNDS_ID#AUDIO_SLIDER
+音效與觸覺回饋 → 自動調整音量 ｜ Automatically Adjust Volume ⇢ bridge:root=SOUNDS_ID#contextual_volume_switch
+聲音與觸覺回饋 → 蓋住螢幕靜音 ｜ Cover to Mute ⇢ bridge:root=SOUNDS_ID#COVER_TO_MUTE
+聲音與觸覺回饋 → 觸覺回饋提示 ｜ Haptic Alerts ⇢ bridge:root=SOUNDS_ID#Haptic%20Alerts
+聲音與觸覺回饋 → 觸覺回饋 ｜ Haptics ⇢ bridge:root=SOUNDS_ID#Haptics
+音效與觸覺回饋 → 耳機音訊 ｜ Headphone Audio ⇢ bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP
+音效與觸覺回饋 → 系統聲音與觸覺回饋 ｜ System Sounds &amp; Haptics ⇢ bridge:root=SOUNDS_ID#JACKRABBIT_GROUP_ID
+音效與觸覺回饋 → 錶冠觸覺回饋 ｜ Crown Haptics ⇢ bridge:root=SOUNDS_ID#JACKRABBIT_ID
+音效與觸覺回饋 → 鈴聲和提示聲 ｜ Ringtone and Alerts ⇢ bridge:root=SOUNDS_ID#RINGTONE_AND_ALERTS_SECTION_TITLE
+音效與觸覺回饋 → 系統觸覺回饋 ｜ System Haptics ⇢ bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID
+音效與觸覺回饋 → 音量 ｜ Level ⇢ bridge:root=SOUNDS_ID&amp;path=contextual_volume_profile
+音效與觸覺回饋 → 觸覺回饋 ｜ Haptics ⇢ bridge:root=SOUNDS_ID&amp;path=HAPTICS_ID
+音效與觸覺回饋 → 耳機安全性 ｜ Headphone Safety ⇢ bridge:root=SOUNDS_ID&amp;path=HEADPHONE_LEVEL_LIMIT_SETTING
+音效與觸覺回饋 → 行事曆提示 ｜ Calendar Alerts ⇢ bridge:root=SOUNDS_ID&amp;path=SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_ID
+音效與觸覺回饋 → 預設提示 ｜ Default Alerts ⇢ bridge:root=SOUNDS_ID&amp;path=SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_ID
+音效與觸覺回饋 → 收到新郵件 ｜ New Mail ⇢ bridge:root=SOUNDS_ID&amp;path=SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_ID
+音效與觸覺回饋 → 提醒事項提示 ｜ Reminder Alerts ⇢ bridge:root=SOUNDS_ID&amp;path=SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_ID
+音效與觸覺回饋 → 鈴聲 ｜ Ringtone ⇢ bridge:root=SOUNDS_ID&amp;path=SOUND_AND_HAPTIC_PATTERNS_RINGTONE_ID
+音效與觸覺回饋 → 訊息聲 ｜ Text Tone ⇢ bridge:root=SOUNDS_ID&amp;path=SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_ID
+Siri卡片所選的股票 → 錶面複雜功能顯示 ｜ Clock Face Complication Shows ⇢ bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows
+Siri卡片所選的股票 → 目前價格 ｜ Current Price ⇢ bridge:root=com.apple.StocksBridgeSettings#Current%20Price
+Siri卡片所選的股票 → 市值 ｜ Market Cap ⇢ bridge:root=com.apple.StocksBridgeSettings#Market%20Cap
+Siri卡片所選的股票 → 漲跌幅 ｜ Percentage Change ⇢ bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change
+Siri卡片所選的股票 → 漲跌 ｜ Points Change ⇢ bridge:root=com.apple.StocksBridgeSettings#Points%20Change
+Siri卡片所選的股票 → Siri錶面顯示的股票報價 ｜ Siri Face Shows Quote For ⇢ bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For
+Siri卡片所選的股票 → 所選的股票 ｜ Selected Stock ⇢ bridge:root=com.apple.StocksBridgeSettings&amp;path=Selected%20Stock
+儲存空間上限 → 加入音樂⋯ ｜ Add Music… ⇢ bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6
+儲存空間上限 → 播放列表與專輯 ｜ PLAYLISTS &amp; ALBUMS ⇢ bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&amp;%20ALBUMS
+提示 → 允許通知 ｜ Allow Notifications ⇢ bridge:root=com.apple.NanoTipsBridgeSettings#ALLOW_NOTIFICATIONS_ID
+提示 → 關閉通知 ｜ Notifications Off ⇢ bridge:root=com.apple.NanoTipsBridgeSettings#NOTIFICATIONS_OFF_ID
+提示 → 傳送到通知中心 ｜ Send to Notification Center ⇢ bridge:root=com.apple.NanoTipsBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID
+提示 → 通知分類 ｜ Notification Grouping ⇢ bridge:root=com.apple.NanoTipsBridgeSettings&amp;path=NOTIFICATION_COALESCING_ID
+地圖 → 版號資訊 ｜ Build Info ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A
+地圖 → 自行車 ｜ Cycling ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Cycling
+地圖 → 開車 ｜ Driving ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Driving
+地圖 → 開車時啟用CarPlay ｜ Driving with CarPlay ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay
+地圖 → 顯示導航 ｜ Show Navigation ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation
+地圖 → 大眾運輸 ｜ Transit ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Transit
+地圖 → 轉彎提示 ｜ Turn Alerts ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts
+地圖 → 步行 ｜ Walking ⇢ bridge:root=com.apple.NanoMapsBridgeSettings#Walking
+密碼 → 透過iPhone解鎖 ｜ Unlock with iPhone ⇢ bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID
+密碼 → 更改密碼 ｜ Change Passcode ⇢ bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID
+密碼 → 清除資料 ｜ Erase Data ⇢ bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID
+密碼 → 複雜功能 ⇢ bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_GROUP_ID
+密碼 → 鎖定時顯示資料 ⇢ bridge:root=PASSCODE_ID#SHOW_COMPLICATION_DATA_WHEN_LOCKED_SWITCH_ID
+密碼 → 簡易密碼 ｜ Simple Passcode ⇢ bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID
+密碼 → 開啟密碼 ｜ Turn Passcode On ⇢ bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID
+密碼 → 手腕偵測 ｜ Wrist Detection ⇢ bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID
+對講機 → 允許通知 ｜ Allow Notifications ⇢ bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID
+對講機 → 朋友 ｜ Friends ⇢ bridge:root=com.apple.tincan.settings#Friends
+對講機 → 關閉通知 ｜ Notifications Off ⇢ bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID
+對講機 → 傳送到通知中心 ｜ Send to Notification Center ⇢ bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID
+對講機 → 通知分類 ｜ Notification Grouping ⇢ bridge:root=com.apple.tincan.settings&amp;path=NOTIFICATION_COALESCING_ID
+錢包與Apple Pay → 加入卡片 ｜ Add Card ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card
+錢包與Apple Pay → Apple Cash ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash
+錢包與Apple Pay → 自訂 ｜ Custom ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID
+錢包與Apple Pay → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID
+錢包與Apple Pay → 通知 ｜ Notifications ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID
+天氣 → 預設城市 ｜ Default City ⇢ bridge:root=com.apple.weatherbridgesettings&amp;path=Default%20City
+體能訓練 → 開始體能訓練提醒 ｜ Start Workout Reminder ⇢ bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL
+體能訓練 → 按下來暫停 ｜ Press to Pause ⇢ bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL
+體能訓練 → 結束體能訓練提醒 ｜ End Workout Reminder ⇢ bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL
+體能訓練 → 健走趣 ｜ Time to Walk ⇢ bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID
+體能訓練 → 將新的體能訓練加入Apple Watch ｜ Add New Workouts to Watch ⇢ bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID
+體能訓練 → 低耗電模式 ｜ Low Power Mode ⇢ bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE
+體能訓練 → 偵測健身器材 ｜ Detect Gym Equipment ⇢ bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID
+體能訓練 → 顯示目標測量指標 ｜ Show Goal Metric ⇢ bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL
+體能訓練 → 從頭播放 ｜ Play from beginning ⇢ bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID
+體能訓練 → 隨機顯示 ｜ Shuffle ⇢ bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID
+體能訓練 → 語音回饋 ｜ Voice Feedback ⇢ bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL
+體能訓練 → 自動暫停 ｜ Auto-Pause ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=AUTO_PAUSE_ID
+體能訓練 → 體能訓練顯示畫面 ｜ Workout View ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=METRIC_VIEW_ID
+體能訓練 → 體能訓練播放列表 ｜ Workout Playlist ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=MUSIC_AUTOSTART_TITLE_ID
+體能訓練 → 配速/速度顯示畫面 ｜ Pace/Speed View ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=PACE_VIEW_LABEL
+體能訓練 → 度量單位 ｜ Units of Measure ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID
+輔助使用 → 複雜功能 → 麥克風音量 ｜ Mic Volume ⇢ bridge:root=ACCESSIBILITY&amp;path=HearingDevicesComplicationRowID#Mic%20Volume
+輔助使用 → 複雜功能 → 程式 ｜ Program ⇢ bridge:root=ACCESSIBILITY&amp;path=HearingDevicesComplicationRowID#Program
+輔助使用 → RTT → RTT ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT#RTT_TITLE
+輔助使用 → RTT → 立即傳送 ｜ Send Immediately ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT#TTY_REALTIME_LABEL
+輔助使用 → RTT → 預設回覆 ｜ Default Replies ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT/RTT_CANNED_TEXT_TITLE
+輔助使用 → RTT → 轉送號碼 ｜ Relay Number ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT/TTY_RELAY_LABEL
+輔助使用 → 側邊按鈕按鍵速度 → 預設值 ｜ Default ⇢ bridge:root=ACCESSIBILITY&amp;path=SideButton#SIDE_CLICK_SPEED_DEFAULT
+輔助使用 → 側邊按鈕按鍵速度 → 慢速 ｜ Slow ⇢ bridge:root=ACCESSIBILITY&amp;path=SideButton#SIDE_CLICK_SPEED_SLOW
+輔助使用 → 側邊按鈕按鍵速度 → 最慢 ｜ Slowest ⇢ bridge:root=ACCESSIBILITY&amp;path=SideButton#SIDE_CLICK_SPEED_SLOWEST
+輔助使用 → 側邊按鈕按鍵速度 → 按鍵速度 ｜ Click Speed ⇢ bridge:root=ACCESSIBILITY&amp;path=SideButton#SIDE_SPEED_HEADER
+輔助使用 → 響鈴 → 響鈴 ｜ Chimes ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell#Chimes
+輔助使用 → 響鈴 → 排程 ｜ Schedule ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Schedule
+輔助使用 → 響鈴 → 聲音 ｜ Sounds ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Sounds
+輔助使用 → 觸控調節 → 使用最終觸控位置 ｜ Use Final Touch Location ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE
+輔助使用 → 觸控調節 → 使用最初觸控位置 ｜ Use Initial Touch Location ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH
+輔助使用 → 觸控調節 → 按住持續時間 ｜ Hold Duration ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#HoldDuration
+輔助使用 → 觸控調節 → 按住持續時間 ｜ Hold Duration ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#HoldDurationGroup
+輔助使用 → 觸控調節 → 忽略重複 ｜ Ignore Repeat ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#IgnoreRepeat
+輔助使用 → 觸控調節 → 忽略重複 ｜ Ignore Repeat ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#IgnoreRepeatGroup
+輔助使用 → 觸控調節 → 關閉 ｜ Off ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#OFF
+輔助使用 → 觸控調節 → 輕點輔助 ｜ Tap Assistance ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#Tap%20Assistance
+輔助使用 → 觸控調節 → 觸控調節 ｜ Touch Accommodations ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER
+輔助使用 → 複雜功能 → 麥克風音量 ｜ Mic Volume ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=HearingDevicesComplicationRowID#Mic%20Volume
+輔助使用 → 複雜功能 → 程式 ｜ Program ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=HearingDevicesComplicationRowID#Program
+輔助使用 → RTT → RTT ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=RTT_ID#RTT_ROW_ID
+輔助使用 → 側邊按鈕按鍵速度 → 按鍵速度 ｜ Click Speed ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SideButton#CLICK_SPEED_GROUP_CELL
+輔助使用 → 側邊按鈕按鍵速度 → 預設值 ｜ Default ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SideButton#SIDE_CLICK_SPEED_DEFAULT
+輔助使用 → 側邊按鈕按鍵速度 → 慢速 ｜ Slow ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SideButton#SIDE_CLICK_SPEED_SLOW
+輔助使用 → 側邊按鈕按鍵速度 → 最慢 ｜ Slowest ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SideButton#SIDE_CLICK_SPEED_SLOWEST
+輔助使用 → Siri → 輸入來與Siri對話 ｜ Type to Siri ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=SIRI_CELL_ID#Type%20to%20Siri
+輔助使用 → 響鈴 → 響鈴 ｜ Chimes ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell#Chimes
+輔助使用 → 響鈴 → 排程 ｜ Schedule ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SCHEDULE_ID
+輔助使用 → 響鈴 → 聲音 ｜ Sounds ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SOUNDS_ID
+輔助使用 → 觸控調節 → 使用最終觸控位置 ｜ Use Final Touch Location ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE
+輔助使用 → 觸控調節 → 使用最初觸控位置 ｜ Use Initial Touch Location ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH
+輔助使用 → 觸控調節 → 按住持續時間 ｜ Hold Duration ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#HoldDuration
+輔助使用 → 觸控調節 → 按住持續時間 ｜ Hold Duration ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#HoldDurationGroup
+輔助使用 → 觸控調節 → 忽略重複 ｜ Ignore Repeat ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#IgnoreRepeat
+輔助使用 → 觸控調節 → 忽略重複 ｜ Ignore Repeat ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#IgnoreRepeatGroup
+輔助使用 → 觸控調節 → 關閉 ｜ Off ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#OFF
+輔助使用 → 觸控調節 → 輕點輔助 ｜ Tap Assistance ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#Tap%20Assistance
+輔助使用 → 觸控調節 → 觸控調節 ｜ Touch Accommodations ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER
+動作按鈕 → 快速切換 → 快速切換 ｜ Quick Switch ⇢ bridge:root=ACTION_BUTTON_ID&amp;path=ShowQuickSwitch#Quick%20Switch
+動作按鈕 → 快速切換 → 包含的App ｜ Included Apps ⇢ bridge:root=ACTION_BUTTON_ID&amp;path=ShowQuickSwitch#StingQuickSwitchAppGroup
+動作按鈕 → 快速切換 → 快速切換 ｜ Quick Switch ⇢ bridge:root=ACTION_BUTTON_ID&amp;path=ShowQuickSwitch#StingQuickSwitchToggleGroup
+動作按鈕 → 體能訓練 → 無 ｜ None ⇢ bridge:root=ACTION_BUTTON_ID&amp;path=StingSystemSettingsActionTypeItem#StingSystemSettingsSelectedActionTypeItem
+活動記錄 → 進度更新 → 每8小時 ｜ Every 8 hours ⇢ bridge:root=com.apple.HealthAppsSettings&amp;path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID
+活動記錄 → 進度更新 → 每4小時 ｜ Every 4 hours ⇢ bridge:root=com.apple.HealthAppsSettings&amp;path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID
+活動記錄 → 進度更新 → 每6小時 ｜ Every 6 hours ⇢ bridge:root=com.apple.HealthAppsSettings&amp;path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID
+活動記錄 → 進度更新 → 每2小時 ｜ Every 2 hours ⇢ bridge:root=com.apple.HealthAppsSettings&amp;path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID
+活動記錄 → 進度更新 → 無 ｜ None ⇢ bridge:root=com.apple.HealthAppsSettings&amp;path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID
+時鐘 → 聲音 → 鈴聲 ｜ Bells ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Sounds#Bells
+時鐘 → 聲音 → 鳥 ｜ Birds ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Sounds#Birds
+時鐘 → 觸覺回饋時間 → 數字 ｜ Digits ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Taptic%20Time#Digits
+時鐘 → 觸覺回饋時間 → 摩斯密碼 ｜ Morse Code ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Taptic%20Time#Morse%20Code
+時鐘 → 觸覺回饋時間 → 觸覺回饋時間 ｜ Taptic Time ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Taptic%20Time#Taptic%20Time
+時鐘 → 觸覺回饋時間 → 簡易 ｜ Terse ⇢ bridge:root=com.apple.NanoClockBridgeSettings&amp;path=Taptic%20Time#Terse
+聯絡人 → 排序 → 名字在前，姓氏在後 ｜ First, Last ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=contactsSortOrder#0
+聯絡人 → 排序 → 姓氏在前，名字在後 ｜ Last, First ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=contactsSortOrder#1
+聯絡人 → 顯示順序 → 名字在前，姓氏在後 ｜ First, Last ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=NSPersonNameDefaultDisplayNameOrder#1
+聯絡人 → 顯示順序 → 姓氏在前，名字在後 ｜ Last, First ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=NSPersonNameDefaultDisplayNameOrder#2
+聯絡人 → 簡稱 → 名字起始字母和姓氏 ｜ First Initial &amp; Last Name ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName#First%20Initial%20&amp;%20Last%20Name
+聯絡人 → 簡稱 → 名字和姓氏起始字母 ｜ First Name &amp; Last Initial ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName#First%20Name%20&amp;%20Last%20Initial
+聯絡人 → 簡稱 → 只有名字 ｜ First Name Only ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName#First%20Name%20Only
+聯絡人 → 簡稱 → 只有姓氏 ｜ Last Name Only ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName#Last%20Name%20Only
+聯絡人 → 簡稱 → 偏好暱稱 ｜ Prefer Nicknames ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName#Prefer%20Nicknames
+聯絡人 → 簡稱 → 簡稱 ｜ Short Name ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=PersonShortName#Short%20Name
+螢幕顯示與亮度 → 永遠開啟 → 永遠開啟 ｜ Always On ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID#TRITIUM_ID
+螢幕顯示與亮度 → 永遠開啟 → 放下手腕 ｜ WRIST DOWN ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID
+螢幕顯示與亮度 → 永遠開啟 → 顯示App ｜ Show Apps ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID/Show%20Apps
+螢幕顯示與亮度 → 永遠開啟 → 顯示通知 ｜ Show Notifications ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID/Show%20Notifications
+螢幕顯示與亮度 → 喚醒持續時間 → 發亮70秒 ｜ Wake for 70 Seconds ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=Wake%20Duration#LONG_WAKE_ID
+螢幕顯示與亮度 → 喚醒持續時間 → 點一下時 ｜ ON TAP ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=Wake%20Duration#ON_TAP_GROUP_ID
+螢幕顯示與亮度 → 喚醒持續時間 → 發亮15秒 ｜ Wake for 15 Seconds ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=Wake%20Duration#SHORT_WAKE_ID
+螢幕顯示與亮度 → 永遠顯示 → 永遠顯示 ｜ Always On ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID#TRITIUM_ID
+螢幕顯示與亮度 → 永遠顯示 → 放下手腕 ｜ WRIST DOWN ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示App ｜ Show Apps ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示複雜功能資料 ｜ Show Complications Data ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示即時動態 ｜ Show Live Activities ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 ｜ Show Notifications ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID
+螢幕顯示與亮度 → 喚醒持續時間 → 發亮70秒 ｜ Wake for 70 Seconds ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID
+螢幕顯示與亮度 → 喚醒持續時間 → 點一下時 ｜ ON TAP ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID
+螢幕顯示與亮度 → 喚醒持續時間 → 發亮15秒 ｜ Wake for 15 Seconds ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID
+一般 → 關於本機 → 應用程式 ｜ Applications ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#APPLICATIONS_CELL_ID
+一般 → 關於本機 → 電信業者 ｜ Carrier ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#CARRIER_CELL_ID
+一般 → 關於本機 → 藍牙 ｜ Bluetooth ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID
+一般 → 關於本機 → 機型詳細資訊 ｜ Model Detail ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#DEVICE_DETAIL_CELL_ID
+一般 → 關於本機 → 機型名稱 ｜ Model Name ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#DEVICE_MARKETING_NAME_CELL_ID
+一般 → 關於本機 → 機型型號 ｜ Model Number ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#DEVICE_MODEL_CELL_ID
+一般 → 關於本機 → 序號 ｜ Serial Number ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID
+一般 → 關於本機 → Wi-Fi位址 ｜ Wi-Fi Address ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#DEVICE_WIFI_ADDRESS_CELL_ID
+一般 → 關於本機 → ICCID ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#ICCID_CELL_ID
+一般 → 關於本機 → IMEI ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#IMEI_CELL_ID
+一般 → 關於本機 → 檢視Apple Watch使用手冊 ｜ View the Apple Watch User Guide ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#MANUAL
+一般 → 關於本機 → watchOS版本 ｜ watchOS Version ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#OS_VERSION_CELL_ID
+一般 → 關於本機 → 照片 ｜ Photos ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#PHOTOS_CELL_ID
+一般 → 關於本機 → 檢視Apple Watch使用手冊 ｜ View the Apple Watch User Guide ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#SHOW_MANUAL_CELL_ID
+一般 → 關於本機 → 歌曲 ｜ Songs ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#SONGS_CELL_ID
+一般 → 關於本機 → 可用空間 ｜ Available ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#STORAGE_AVAILABLE_CELL_ID
+一般 → 關於本機 → 容量 ｜ Capacity ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT#STORAGE_CAPACITY_CELL_ID
+一般 → 關於本機 → SEID ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/DEVICE_SEID_CELL_ID
+一般 → 關於本機 → EID ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/EID_CELL_ID
+一般 → 關於本機 → 法律資訊 ｜ Legal ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/LEGAL
+一般 → 關於本機 → 法律資訊 ｜ Legal ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/LEGAL_CELL_ID
+一般 → 關於本機 → 名稱 ｜ Name ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/NAME_CELL_ID
+一般 → 浸入水中時自動啟動 → 自動啟動音訊App ｜ Auto-launch Audio Apps ⇢ bridge:root=GENERAL_LINK&amp;path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA
+一般 → 背景App重新整理 → 背景App重新整理 ｜ Background App Refresh ⇢ bridge:root=GENERAL_LINK&amp;path=BAR_ROW_ID#BACKGROUND_APP_UPDATING_CELL_ID
+一般 → 診斷記錄 → 載入中⋯ ｜ Loading… ⇢ bridge:root=GENERAL_LINK&amp;path=DIAGNOSTIC_LOG_BROWSER#Loading%E2%80%A6
+一般 → 專注模式 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=GENERAL_LINK&amp;path=FOCUS_ID#Mirror%20my%20iPhone
+一般 → 手錶方向 → 左手 ｜ Left Wrist ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION#LEFT_HAND_ID
+一般 → 手錶方向 → 數位錶冠在左側 ｜ Digital Crown on Left Side ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID
+一般 → 手錶方向 → 數位錶冠在右側 ｜ Digital Crown on Right Side ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID
+一般 → 手錶方向 → 右手 ｜ Right Wrist ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION#RIGHT_HAND_ID
+一般 → 手錶方向 → 將Apple Watch戴在 ｜ Wear Apple Watch on ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION#WRIST_CHOICE_ID
+一般 → 手錶方向 → 左手 ｜ Left Wrist ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION_ID#LEFT_HAND_ID
+一般 → 手錶方向 → 數位錶冠在左側 ｜ Digital Crown on Left Side ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION_ID#LISA_ON_LEFT_ID
+一般 → 手錶方向 → 數位錶冠在右側 ｜ Digital Crown on Right Side ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION_ID#LISA_ON_RIGHT_ID
+一般 → 手錶方向 → 右手 ｜ Right Wrist ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION_ID#RIGHT_HAND_ID
+一般 → 手錶方向 → 將Apple Watch戴在 ｜ Wear Apple Watch on ⇢ bridge:root=GENERAL_LINK&amp;path=GIZMO_ORIENTATION_ID#WRIST_CHOICE_ID
+一般 → 語言與地區 → 自訂 ｜ Custom ⇢ bridge:root=GENERAL_LINK&amp;path=LANGUAGE_AND_REGION#CUSTOM_ID
+一般 → 語言與地區 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=GENERAL_LINK&amp;path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID
+一般 → 語言與地區 → 自訂 ｜ Custom ⇢ bridge:root=GENERAL_LINK&amp;path=LANGUAGE_AND_REGION_ID#CUSTOM_ID
+一般 → 語言與地區 → 使用iPhone設定 ｜ Mirror my iPhone ⇢ bridge:root=GENERAL_LINK&amp;path=LANGUAGE_AND_REGION_ID#MIRROR_MY_COMPANION_ID
+一般 → 返回錶面 → APP ｜ APPS ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK#APP_GROUP_ID
+一般 → 返回錶面 → 返回錶面 ｜ RETURN TO CLOCK ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID
+一般 → 返回錶面 → 1小時後 ｜ After 1 hour ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR
+一般 → 返回錶面 → 2分鐘後 ｜ After 2 minutes ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES
+一般 → 返回錶面 → 永遠 ｜ Always ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS
+一般 → 返回錶面 → APP ｜ APPS ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK_ID#APP_GROUP_ID
+一般 → 返回錶面 → 返回錶面 ｜ RETURN TO CLOCK ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK_ID#CSLPRFReturnToClockGroupID
+一般 → 返回錶面 → 1小時後 ｜ After 1 hour ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_1_HOUR
+一般 → 返回錶面 → 2分鐘後 ｜ After 2 minutes ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_AFTER_2_MINUTES
+一般 → 返回錶面 → 永遠 ｜ Always ⇢ bridge:root=GENERAL_LINK&amp;path=RETURN_TO_CLOCK_ID#RETURN_TO_CLOCK_ALWAYS
+一般 → Wake Screen → 播放中 ｜ Now Playing ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA
+手勢 → 點兩下 → 點兩下 ｜ Double Tap ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#Double%20Tap
+手勢 → 點兩下 → 忽略「互點兩下」 ｜ Ignore Double Tap ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#ignoreDoubleTap
+手勢 → 點兩下 → 使用Apple Vision Pro時 ｜ When using Apple Vision Pro ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#ignoreWhileVisionProDonned
+手勢 → 點兩下 → 播放 ｜ Playback ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#playbackSettingsGroup
+手勢 → 點兩下 → 播放/暫停 ｜ Play / Pause ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#playbackSettingsPlayPause
+手勢 → 點兩下 → 略過 ｜ Skip ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#playbackSettingsSkip
+手勢 → 點兩下 → 智慧型堆疊 ｜ Smart Stack ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#smartStackGroup
+手勢 → 點兩下 → 前進 ｜ Advance ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#smartStackSettingsAdvance
+手勢 → 點兩下 → 選取 ｜ Select ⇢ bridge:root=ELTON_SETTINGS_ID&amp;path=ELTON_DOUBLE_TAP_ID#smartStackSettingsSelect
+郵件 → 預設回覆 → 加入回覆⋯ ｜ Add reply… ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Default%20Replies#Add%20reply%E2%80%A6
+郵件 → 預設回覆 → 預設回覆 ｜ Default Replies ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Default%20Replies#Default%20Replies
+郵件 → 預覽郵件 → 無 ｜ None ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview#0
+郵件 → 預覽郵件 → 1行 ｜ 1 Line ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview#1
+郵件 → 預覽郵件 → 2行 ｜ 2 Lines ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview#2
+郵件與行事曆 → 擷取 → 15分鐘 ｜ 15 min ⇢ bridge:root=com.apple.BridgeRemoteAccounts&amp;path=Fetch#15%20min
+郵件與行事曆 → 擷取 → 30分鐘 ｜ 30 min ⇢ bridge:root=com.apple.BridgeRemoteAccounts&amp;path=Fetch#30%20min
+郵件與行事曆 → 擷取 → 每小時 ｜ Hourly ⇢ bridge:root=com.apple.BridgeRemoteAccounts&amp;path=Fetch#Hourly
+郵件與行事曆 → 擷取 → 關閉 ｜ Off ⇢ bridge:root=com.apple.BridgeRemoteAccounts&amp;path=Fetch#Off
+訊息 → 預設回覆 → 加入回覆⋯ ｜ Add reply… ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DEFAULT_REPLIES#Add%20reply%E2%80%A6
+訊息 → 預設回覆 → 預設回覆 ｜ Default Replies ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DEFAULT_REPLIES#Default%20Replies
+訊息 → 預設回覆 → 智慧型回覆 ｜ Smart Replies ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DEFAULT_REPLIES#Smart%20Replies
+正念 → 呼吸速率 → 每分鐘呼吸10次 ｜ 10 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_10
+正念 → 呼吸速率 → 每分鐘呼吸4次 ｜ 4 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_4
+正念 → 呼吸速率 → 每分鐘呼吸5次 ｜ 5 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_5
+正念 → 呼吸速率 → 每分鐘呼吸6次 ｜ 6 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_6
+正念 → 呼吸速率 → 每分鐘呼吸7次 ｜ 7 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_7
+正念 → 呼吸速率 → 每分鐘呼吸8次 ｜ 8 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_8
+正念 → 呼吸速率 → 每分鐘呼吸9次 ｜ 9 breaths per minute ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_BREATHE_RATE_ID#ID_BPM_9
+正念 → 觸覺回饋 → 弱 ｜ Minimal ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_HAPTICS_ID#MINIMAL_ID
+正念 → 觸覺回饋 → 無 ｜ None ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_HAPTICS_ID#NONE_ID
+正念 → 觸覺回饋 → 強 ｜ Prominent ⇢ bridge:root=com.apple.MindSettings&amp;path=MIND_HAPTICS_ID#PROMINENT_ID
+噪音 → 噪音臨界值 → 100分貝 ｜ 100 decibels ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID#ID_BPM_100
+噪音 → 噪音臨界值 → 80分貝 ｜ 80 decibels ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID#ID_BPM_80
+噪音 → 噪音臨界值 → 85分貝 ｜ 85 decibels ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID#ID_BPM_85
+噪音 → 噪音臨界值 → 90分貝 ｜ 90 decibels ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID#ID_BPM_90
+噪音 → 噪音臨界值 → 95分貝 ｜ 95 decibels ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID#ID_BPM_95
+噪音 → 噪音臨界值 → 關閉 ｜ Off ⇢ bridge:root=com.apple.Noise.settings&amp;path=LOUD_NOTIFICATION_ID#OFF
+隱私權 → 耳機音效測量 → 保留8天 ｜ For 8-Days ⇢ bridge:root=PRIVACY_ID&amp;path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL
+隱私權 → 耳機音效測量 → 在「健康」中儲存 ｜ Save In Health ⇢ bridge:root=PRIVACY_ID&amp;path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP
+隱私權 → 耳機音效測量 → 保留直到刪除為止 ｜ Until I Delete ⇢ bridge:root=PRIVACY_ID&amp;path=HeadphoneAudio#UNTIL_I_DELETE_CELL
+Siri → Siri回應 → 永遠顯示Siri字幕 ｜ Always Show Siri Captions ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SIRI_CAPTIONS_SWITCH_ID
+Siri → Siri回應 → 永遠顯示語音 ｜ Always Show Speech ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID#ALWAYS_SHOW_SPEECH_SWITCH_ID
+Siri → Siri回應 → 音量 ｜ Voice Volume ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_GROUP_ID
+Siri → Siri回應 → 自動調整音量 ｜ Automatically Adjust Volume ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID#CONSIDERATE_VOLUME_SWITCH_ID
+Siri → Siri回應 → 音量 ｜ Level ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID
+Siri → 語音回饋 → 永遠開啟 ｜ Always On ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID
+Siri → 語音回饋 → 以「靜音模式」控制 ｜ Control With Silent Mode ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID
+Siri → 語音回饋 → 只限耳機 ｜ Headphones Only ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID
+Siri → 聆聽 → 「嘿Siri」 ｜ “Hey Siri” ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_TRIGGER_ID#HEY_SIRI_ID
+Siri → 聆聽 → 「Siri」或「嘿Siri」 ｜ “Siri” or “Hey Siri” ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_TRIGGER_ID#HS_JS_ID
+Siri → 聆聽 → 關閉 ｜ Off ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=VOICE_TRIGGER_ID#VOICE_TRIGGER_DISABLED_ID
+音效與觸覺回饋 → 音量 → 預設值 ｜ Default ⇢ bridge:root=SOUNDS_ID&amp;path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID
+音效與觸覺回饋 → 音量 → 音量較大 ｜ Louder ⇢ bridge:root=SOUNDS_ID&amp;path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID
+音效與觸覺回饋 → 音量 → 音量較小 ｜ Quieter ⇢ bridge:root=SOUNDS_ID&amp;path=contextual_volume_profile#CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID
+音效與觸覺回饋 → 觸覺回饋 → 預設值 ｜ Default ⇢ bridge:root=SOUNDS_ID&amp;path=HAPTICS_ID#DEFAULT_ITEM_ID
+音效與觸覺回饋 → 觸覺回饋 → 關閉 ｜ Off ⇢ bridge:root=SOUNDS_ID&amp;path=HAPTICS_ID#OFF_ITEM_ID
+音效與觸覺回饋 → 觸覺回饋 → 強 ｜ Prominent ⇢ bridge:root=SOUNDS_ID&amp;path=HAPTICS_ID#PROMINENT_ITEM_ID
+音效與觸覺回饋 → 耳機安全性 → 降低高音量 ｜ Reduce Loud Sounds ⇢ bridge:root=SOUNDS_ID&amp;path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey
+音效與觸覺回饋 → 耳機安全性 → 耳機通知 ｜ Headphone Notifications ⇢ bridge:root=SOUNDS_ID&amp;path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey
+Siri卡片所選的股票 → 所選的股票 → 所選的股票 ｜ Selected Stock ⇢ bridge:root=com.apple.StocksBridgeSettings&amp;path=Selected%20Stock#Selected%20Stock
+天氣 → 預設城市 → 目前位置 ｜ Current Location ⇢ bridge:root=com.apple.weatherbridgesettings&amp;path=Default%20City#Current%20Location
+天氣 → 預設城市 → 預設城市 ｜ Default City ⇢ bridge:root=com.apple.weatherbridgesettings&amp;path=Default%20City#Default%20City
+體能訓練 → 自動暫停 → 自動暫停 ｜ Auto-Pause ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch
+體能訓練 → 體能訓練播放列表 → 播放列表 ｜ Playlists ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID
+體能訓練 → 體能訓練播放列表 → 無 ｜ None ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID
+體能訓練 → 配速/速度顯示畫面 → 平均 ｜ Average ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=PACE_VIEW_LABEL#AVERAGE_PACE_ID
+體能訓練 → 配速/速度顯示畫面 → 目前 ｜ Current ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=PACE_VIEW_LABEL#CURRENT_PACE_ID
+體能訓練 → 度量單位 → 公里 ｜ Kilometers ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID
+體能訓練 → 度量單位 → 英里 ｜ Miles ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID
+體能訓練 → 度量單位 → 大卡 ｜ Calories ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID
+體能訓練 → 度量單位 → 千卡 ｜ Kilocalories ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID
+體能訓練 → 度量單位 → 千焦耳 ｜ Kilojoules ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID
+體能訓練 → 度量單位 → 公尺 ｜ Meters ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID
+體能訓練 → 度量單位 → 碼 ｜ Yards ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID
+體能訓練 → 度量單位 → 公里 ｜ Kilometers ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID
+體能訓練 → 度量單位 → 英里 ｜ Miles ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID
+輔助使用 → RTT → 預設回覆 → 加入回覆⋯ ｜ Add reply… ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6
+輔助使用 → RTT → 預設回覆 → 預設回覆 ｜ Default Replies ⇢ bridge:root=ACCESSIBILITY&amp;path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies
+輔助使用 → 響鈴 → 排程 → 15分鐘 ｜ 15 minutes ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Schedule#15%20minutes
+輔助使用 → 響鈴 → 排程 → 30分鐘 ｜ 30 minutes ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Schedule#30%20minutes
+輔助使用 → 響鈴 → 排程 → 每小時 ｜ Hourly ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Schedule#Hourly
+輔助使用 → 響鈴 → 聲音 → 鈴聲 ｜ Bells ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Sounds#Bells
+輔助使用 → 響鈴 → 聲音 → 鳥 ｜ Birds ⇢ bridge:root=ACCESSIBILITY&amp;path=TapticChimesCell/Sounds#Birds
+輔助使用 → 響鈴 → 排程 → 15分鐘 ｜ 15 minutes ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SCHEDULE_ID#15%20minutes
+輔助使用 → 響鈴 → 排程 → 30分鐘 ｜ 30 minutes ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SCHEDULE_ID#30%20minutes
+輔助使用 → 響鈴 → 排程 → 每小時 ｜ Hourly ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SCHEDULE_ID#Hourly
+輔助使用 → 響鈴 → 聲音 → 鈴聲 ｜ Bells ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SOUNDS_ID#Bells
+輔助使用 → 響鈴 → 聲音 → 鳥 ｜ Birds ⇢ bridge:root=ACCESSIBILITY_ID&amp;path=TapticChimesCell/CHIMES_SOUNDS_ID#Birds
+螢幕顯示與亮度 → 永遠開啟 → 顯示App → 顯示App ｜ Show Apps ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP
+螢幕顯示與亮度 → 永遠開啟 → 顯示App → APP ｜ APPS ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID
+螢幕顯示與亮度 → 永遠開啟 → 顯示通知 → 顯示通知 ｜ Show Notifications ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP
+螢幕顯示與亮度 → 永遠開啟 → 顯示通知 → APPLE WATCH APP ｜ APPLE WATCH APPS ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → 顯示App ｜ Show Apps ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → APP ｜ APPS ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#APP_GROUP_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → App Store ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#com.apple.AppStore
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → 電話 ｜ Phone ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhone
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → 照片 ｜ Photos ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoPhotos
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → 設定 ｜ Settings ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoSettings
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → Tap-to-Radar ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#com.apple.NanoTapToRadar
+螢幕顯示與亮度 → 永遠顯示 → 顯示App → Nike Run Club ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_APPS_ID#com.nike.nikeplus-gps.watchkitapp
+螢幕顯示與亮度 → 永遠顯示 → 顯示複雜功能資料 → App ｜ Apps ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Apps
+螢幕顯示與亮度 → 永遠顯示 → 顯示複雜功能資料 → 載入中⋯ ｜ Loading… ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Loading%E2%80%A6
+螢幕顯示與亮度 → 永遠顯示 → 顯示複雜功能資料 → 顯示複雜功能資料 ｜ Show Complication Data ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Show%20Complication%20Data
+螢幕顯示與亮度 → 永遠顯示 → 顯示複雜功能資料 → Siri ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri
+螢幕顯示與亮度 → 永遠顯示 → 顯示複雜功能資料 → Siri卡片 ｜ Siri Cards ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_COMPLICATIONS_DATA_ID#Siri%20Cards
+螢幕顯示與亮度 → 永遠顯示 → 顯示即時動態 → 顯示即時動態 ｜ Show Live Activities ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_LIVE_ACTIVITIES_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 顯示通知 ｜ Show Notifications ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_BACKLIGHT_PRIVACY_GLOBAL_APP
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → APPLE WATCH APP ｜ APPLE WATCH APPS ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#APP_GROUP_ID
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 輔助使用設定 ｜ Accessibility Settings ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.accessibility.TeachableMomentsNotifications
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → App Store ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.AppStore
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 相機 ｜ Camera ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.camera
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 診斷回報程式 ｜ Diagnostics Reporter ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.DiagnosticsReporter
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Feedback Internal ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FeedbackInternal
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 追蹤通知 ｜ Tracking Notifications ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.FindMySafetyAlertsNotifications
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 健身 ｜ Fitness ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Fitness
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Game Center ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.gamecenter
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 健康 ｜ Health ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Health
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 書籍 ｜ Books ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.iBooks
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Connect ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.AppleConnect
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Caffè Macs ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.ist.CaffeMacsApp
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Livability ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.Livability
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 行事曆 ｜ Calendar ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilecal
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 郵件 ｜ Mail ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.mobilemail
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 訊息 ｜ Messages ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.MobileSMS
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 電話 ｜ Phone ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhone
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 照片 ｜ Photos ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoPhotos
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 設定 ｜ Settings ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoSettings
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Tap-to-Radar ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.NanoTapToRadar
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → 天氣 ｜ Weather ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.apple.weather
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Self Service ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.jamfsoftware.selfservice
+螢幕顯示與亮度 → 永遠顯示 → 顯示通知 → Nike Run Club ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=TRITIUM_ID/SHOW_NOTIFICATIONS_ID#com.nike.nikeplus-gps.watchkitapp
+一般 → 關於本機 → 有限保固 → 聊天與電話支援 ｜ Chat &amp; Phone Support ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&amp;%20Phone%20Support
+一般 → 關於本機 → 有限保固 → 保固範圍詳細資訊 ｜ COVERAGE DETAILS ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS
+一般 → 關於本機 → 有限保固 → 硬體保固範圍 ｜ Hardware Coverage ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage
+一般 → 關於本機 → 有限保固 → 有限保固 ｜ Limited Warranty ⇢ bridge:root=GENERAL_LINK&amp;path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty
+Siri → Siri回應 → 音量 → 預設值 ｜ Default ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_DEFAULT_ID
+Siri → Siri回應 → 音量 → 音量較大 ｜ Louder ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_LOUDER_ID
+Siri → Siri回應 → 音量 → 音量較小 ｜ Quieter ⇢ bridge:root=SIRI_WATCH_SETTINGS_ID&amp;path=SIRI_RESPONSES_ID/CONSIDERATE_VOLUME_PROFILE_ID#CONSIDERATE_VOLUME_PROFILE_QUIETER_ID
+watchOS bridge: (Settings root) ⇢ bridge:
+watchOS bridge: Accessibility ⇢ bridge:root=ACCESSIBILITY&amp;path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS
+watchOS bridge: com.apple.DeepBreathingSettings ⇢ bridge:root=com.apple.DeepBreathingSettings
+watchOS bridge: com.apple.DeepBreathingSettings ⇢ bridge:root=com.apple.DeepBreathingSettings#DEEP_BREATHING_MUTE_FOR_TODAY_ID
+watchOS bridge: com.apple.DeepBreathingSettings ⇢ bridge:root=com.apple.DeepBreathingSettings#DEEP_BREATHING_WEEKLY_SUMMARY_ID
+watchOS bridge: com.apple.DeepBreathingSettings ⇢ bridge:root=com.apple.DeepBreathingSettings&amp;path=DEEP_BREATHING_FREQUENCY_ID
+watchOS bridge: com.nike.nikeplus-gps ⇢ bridge:root=com.nike.nikeplus-gps#SHOWS_ON_GIZMO
+watchOS bridge: com.nike.nikeplus-gps ⇢ bridge:root=com.nike.nikeplus-gps&amp;thirdPartyBundleID=com.nike.nikeplus-gps
+watchOS bridge: Contacts ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=contactsSortOrder#First
+watchOS bridge: Contacts ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=contactsSortOrder#Last
+watchOS bridge: Contacts ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=NSPersonNameDefaultDisplayNameOrder#First
+watchOS bridge: Contacts ⇢ bridge:root=com.apple.NanoContactsBridgeSettingsPaired&amp;path=NSPersonNameDefaultDisplayNameOrder#Last
+watchOS bridge: Display &amp; Brightness ⇢ bridge:root=DISPLAY_AND_BRIGHTNESS&amp;path=TRITIUM_ID#TRITIUM_PRIVACY_ID
+watchOS bridge: FollowUpList_ ⇢ bridge:root=FollowUpList_
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK#POWER_SAVING_MODE
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=DO_NOT_DISTURB_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#ALWAYS_SHOW_WATCH_FACE_NO_STICKINESS_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#APP_STICKINESS_GROUP_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#LONG_WAKE_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#ON_TAP_GROUP_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#ONE_HOUR_WINDOW_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#SHORT_WAKE_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#TINY_WINDOW_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#TWO_MINUTE_WINDOW_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID
+watchOS bridge: General ⇢ bridge:root=GENERAL_LINK&amp;path=WAKE_SCREEN#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID
+watchOS bridge: General ⇢ bridge:tab=SETTINGS&amp;root=GENERAL_LINK&amp;path=LINK_WITH_ICLOUD_LINK
+watchOS bridge: General ⇢ bridge:tab=SETTINGS&amp;root=GENERAL_LINK&amp;path=ManagedConfigurationList/InstallRequested
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings#ATRIAL_FIBRILLATION_GROUP_ID
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings#ATRIAL_FIBRILLATION_HEALTH_ROOM_BUTTON
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings#ELECTROCARDIOGRAM_GROUP_ID
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings#ELECTROCARDIOGRAM_HEALTH_ROOM_BUTTON
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_BRADYCARDIA_ID
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_BRADYCARDIA_ID#ID_BPM_40
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_BRADYCARDIA_ID#ID_BPM_45
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_BRADYCARDIA_ID#ID_BPM_50
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_BRADYCARDIA_ID#OFF
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#ID_BPM_100
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#ID_BPM_110
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#ID_BPM_120
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#ID_BPM_130
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#ID_BPM_140
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#ID_BPM_150
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=HEART_NOTIFICATION_TACHYCARDIA_ID#OFF
+watchOS bridge: Heart ⇢ bridge:root=com.apple.HeartRateSettings&amp;path=NOTIFICATION_COALESCING_ID
+watchOS bridge: Mail ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview#1%20Line
+watchOS bridge: Mail ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview#2%20Lines
+watchOS bridge: Mail ⇢ bridge:root=com.apple.NanoMailBridgeSettings&amp;path=Message%20Preview#None
+watchOS bridge: Messages ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DictatedMessagesMode
+watchOS bridge: Messages ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DictatedMessagesMode#Audio
+watchOS bridge: Messages ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DictatedMessagesMode#Transcript
+watchOS bridge: Messages ⇢ bridge:root=com.apple.MessagesBridgeSettings&amp;path=DictatedMessagesMode#Transcript%20or%20Audio
+watchOS bridge: NOTIFICATIONS_ID ⇢ bridge:root=NOTIFICATIONS_ID&amp;path=com.apple.HeartRateSettings
+watchOS bridge: Photos ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#2
+watchOS bridge: Photos ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings#App%20Settings
+watchOS bridge: Photos ⇢ bridge:root=com.apple.NanoPhotosBridgeSettings&amp;path=Synced%20Album
+watchOS bridge: Privacy ⇢ bridge:root=PRIVACY_ID#Privacy%20Settings
+watchOS bridge: Privacy ⇢ bridge:root=PRIVACY_ID&amp;path=HeadphoneAudio#MEASURE_LEVELS_SWITCH
+watchOS bridge: Privacy ⇢ bridge:root=PRIVACY_ID&amp;path=HeadphoneAudio#OTHER_HEADPHONES_SWITCH
+watchOS bridge: ROOT ⇢ bridge:root=ROOT#Available%20Apps
+watchOS bridge: ROOT ⇢ bridge:root=ROOT#Installed%20On%20Apple%20Watch
+watchOS bridge: Stocks ⇢ bridge:root=com.apple.StocksBridgeSettings#CLOCK%20FACE%20COMPLICATION%20SHOWS%3A
+watchOS bridge: Stocks ⇢ bridge:root=com.apple.StocksBridgeSettings&amp;path=Default%20Stock
+watchOS bridge: Stocks ⇢ bridge:root=com.apple.StocksBridgeSettings&amp;path=Default%20Stock#Default%20Stock
+watchOS bridge: Stocks ⇢ bridge:root=com.apple.StocksBridgeSettings&amp;path=Default%20Stock#Last%20Viewed
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#PAYMENTS%20ON%20MAC
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#PKHandoffPaymentsDisabled
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#SETTINGS_DEFAULT_EXPRESS_TRANSIT_CELL_TITLE
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#SETTINGS_PAYMENT_CARDS_GROUP_PLURAL_WATCH
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#SETTINGS_TRANSACTION_DEFAULTS_EMAIL
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#SETTINGS_TRANSACTION_DEFAULTS_PAYMENT_CARD
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#SETTINGS_TRANSACTION_DEFAULTS_PHONE
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#SETTINGS_TRANSACTION_DEFAULTS_SHIPPING_ADDRESS
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#TRANSACTION%20DEFAULTS
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings#TRANSIT%20CARDS
+watchOS bridge: Wallet &amp; Apple Pay ⇢ bridge:root=com.apple.NanoPassbookBridgeSettings&amp;path=ADD_CARD
+watchOS bridge: Workout ⇢ bridge:root=com.apple.SessionTrackerAppSettings#AUTO_PAUSE_ENABLED_LABEL
+watchOS bridge: Workout ⇢ bridge:root=com.apple.SessionTrackerAppSettings#POWER_SAVING_MODE_ENABLED_LABEL
+watchOS bridge: Workout ⇢ bridge:root=com.apple.SessionTrackerAppSettings&amp;path=METRIC_VIEW_LABEL</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.ask</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Keyword</string>
+				<key>UUID</key>
+				<string>9BD759CF-05D6-5576-8F09-14FCF6F2CACE</string>
+				<key>WFAskActionPrompt</key>
+				<string>輸入關鍵字（Apple Watch 設定，共 711 筆）</string>
+				<key>WFInputType</key>
+				<string>Text</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.replace</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Safe Keyword</string>
+				<key>UUID</key>
+				<string>10205B9A-F578-5131-9683-709A743E7952</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Provided Input</string>
+								<key>OutputUUID</key>
+								<string>9BD759CF-05D6-5576-8F09-14FCF6F2CACE</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>WFReplaceTextFind</key>
+				<string>[^\p{L}\p{N}\s_]</string>
+				<key>WFReplaceTextRegularExpression</key>
+				<true/>
+				<key>WFReplaceTextReplace</key>
+				<string>.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.match</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Matching Lines</string>
+				<key>UUID</key>
+				<string>385D1C7E-4C2F-54A6-B23B-3C160622DEE1</string>
+				<key>WFMatchTextCaseSensitive</key>
+				<false/>
+				<key>WFMatchTextPattern</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{8, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Updated Text</string>
+								<key>OutputUUID</key>
+								<string>10205B9A-F578-5131-9683-709A743E7952</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>(?im)^.*￼.*$</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>attachmentsByRange</key>
+						<dict>
+							<key>{0, 1}</key>
+							<dict>
+								<key>OutputName</key>
+								<string>Settings URL List</string>
+								<key>OutputUUID</key>
+								<string>48ACF599-B2D1-5BA1-AD74-5317A39786C1</string>
+								<key>Type</key>
+								<string>ActionOutput</string>
+							</dict>
+						</dict>
+						<key>string</key>
+						<string>￼</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenString</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.choosefromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Chosen Line</string>
+				<key>UUID</key>
+				<string>984AFE4E-A0D6-5B56-9059-4D6F77D6F9B6</string>
+				<key>WFChooseFromListActionPrompt</key>
+				<string>選擇要開啟的設定頁面</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Matching Lines</string>
+						<key>OutputUUID</key>
+						<string>385D1C7E-4C2F-54A6-B23B-3C160622DEE1</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.split</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Line Parts</string>
+				<key>UUID</key>
+				<string>2469D6E8-88C8-5671-8457-2A5B04F755C4</string>
+				<key>WFTextCustomSeparator</key>
+				<string> ⇢ </string>
+				<key>WFTextSeparator</key>
+				<string>Custom</string>
+				<key>text</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Chosen Line</string>
+						<key>OutputUUID</key>
+						<string>984AFE4E-A0D6-5B56-9059-4D6F77D6F9B6</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getitemfromlist</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>CustomOutputName</key>
+				<string>Settings URL</string>
+				<key>UUID</key>
+				<string>F3FF8742-9B1A-5206-968A-4EBC4DE2AC0C</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Line Parts</string>
+						<key>OutputUUID</key>
+						<string>2469D6E8-88C8-5671-8457-2A5B04F755C4</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+				<key>WFItemSpecifier</key>
+				<string>Last Item</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.url</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>1D04E5CE-FB77-5A66-81EA-E917A9408A17</string>
+				<key>WFURLActionURL</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>Settings URL</string>
+						<key>OutputUUID</key>
+						<string>F3FF8742-9B1A-5206-968A-4EBC4DE2AC0C</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.openurl</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>CB0A810E-9085-5A0B-B2AC-D8188D1525C9</string>
+				<key>WFInput</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>OutputName</key>
+						<string>URL</string>
+						<key>OutputUUID</key>
+						<string>1D04E5CE-FB77-5A66-81EA-E917A9408A17</string>
+						<key>Type</key>
+						<string>ActionOutput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientVersion</key>
+	<string>2605.0.5</string>
+	<key>WFWorkflowHasOutputFallback</key>
+	<false/>
+	<key>WFWorkflowHasShortcutInputVariables</key>
+	<false/>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59666</integer>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>1440408063</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFFolderContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>900</integer>
+	<key>WFWorkflowMinimumClientVersionString</key>
+	<string>900</string>
+	<key>WFWorkflowOutputContentItemClasses</key>
+	<array/>
+	<key>WFWorkflowTypes</key>
+	<array/>
+</dict>
+</plist>
