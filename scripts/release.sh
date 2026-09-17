@@ -47,8 +47,8 @@ git fetch --quiet origin "$branch"
 echo "==> Checking that every shortcut is signed and current"
 
 for src in shortcuts/*/unsigned/*.shortcut; do
-  language="${src%%/*}"
-  language="${language#shortcuts/}"
+  relative="${src#shortcuts/}"
+  language="${relative%%/*}"
   signed="shortcuts/$language/$(basename "$src")"
   [ -f "$signed" ] || fail "$signed is missing. Run scripts/sign_all.sh."
   [ "$signed" -nt "$src" ] || fail "$signed is older than its source. Run scripts/sign_all.sh."
